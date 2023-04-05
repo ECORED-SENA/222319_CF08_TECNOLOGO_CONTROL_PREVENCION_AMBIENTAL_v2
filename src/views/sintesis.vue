@@ -5,7 +5,17 @@
 
  
     p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    img(src='@/assets/curso/sintesis.svg', alt='')
+    .row.justify-content-center
+      .col-lg-9.mb-5
+        figure
+          img(src="@/assets/curso/sintesis.svg", alt="alt")
+      .col-4
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Síntesis
   
 </template>
 
