@@ -55,8 +55,6 @@
   color: #fff !important
 .curso-main-container > .container
   overflow-x: clip !important
-.titulo-segundo:after
-  border-left-color: #EB6F2D !important
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: #12263F !important
 .banner-principal__img img
@@ -282,14 +280,7 @@
   border-left-color: #80CAB6
   background-color: #e8e8e8
 
-.cajon::before
-  content: ''
-  display: block
-  width: 92px
-  height: 10px
-  position: absolute
-  top: 0
-  left: 0
+// 
 
 .m-left
   left: 50% !important
@@ -356,19 +347,6 @@
   border-radius: 10px
 .aling
   margin-left: -12px
-
-figcaption
-  display: block
-  background-color: #E6F5F0
-  padding: 0.75em 1.5em
-  font-size: 0.8em
-  font-weight: 700
-  width: 72rem
-  margin-left: 20px
-  border-radius: 10px
-  @media (max-width: 992px)
-    width: 235px
-    margin-left: 40px
 
 .color-custom-info
   background-color: #FFFFFF
@@ -494,5 +472,30 @@ figcaption
   background-position: center
   background-repeat: no-repeat
   background-size: cover
+.bg-1
+  background-image: url(../assets/curso/images/tema5/bg-1.svg)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+.bg-2
+  background-image: url(../assets/curso/images/tema5/bg-2.svg)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
 .white-opacity
   background-color: rgba(white,0.8)
+.acordion_botones
+  i
+    color: $color-acento-botones
+.acordion__activo
+  background-color: #dce7c1
+.card-tema2
+  position: relative
+  display: flex
+  background-color: #d3ede5
+  img
+    position: absolute
+    width: 350px
+    top: 0
+    left: 0
+    transform: translateY(-10%)
