@@ -18,6 +18,11 @@
         .d-inline-flex.tarjeta.p-3.justify-content-center.align-items-center(style="background-color: #e2eacb")
           img(src='@/assets/curso/images/tema5/signo.svg', alt='' style="width: 52px").mx-4
           p.mb-0.mx-5 ¿Qué actividades se realizan en su comunidad para reducir el cambio climático?
+    .row.justify-content-end.mb-5
+      .col-lg-8
+        .d-inline-flex.tarjeta.p-3.justify-content-center.align-items-center(style="background-color: #e2eacb")
+          img(src='@/assets/curso/images/tema5/signo.svg', alt='' style="width: 52px").mx-4
+          p.mb-0.mx-5 ¿Cómo contribuye usted con el planeta para la reducción de la contaminación atmosférica?
     .row.justify-content-center.mb-5
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
