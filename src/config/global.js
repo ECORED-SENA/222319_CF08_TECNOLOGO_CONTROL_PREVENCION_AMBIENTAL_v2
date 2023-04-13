@@ -458,138 +458,74 @@ export default {
       link: 'https://www.youtube.com/watch?v=rvAYPKtN7mg',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Diana Carolina Triana Guarnizo',
-        cargo: 'Instructor',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Juan Carlos Cárdenas Sánchez',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Gloria Esperanza Ortiz Russi',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro de diseño y metrología - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Martha Isabel Martínez Vargas',
-        cargo: 'Productora audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Centro agropecuario La Granja - Regional Tolima',
-      },
-      {
-        nombre: 'Uriel Darío González Montoya',
-        cargo: 'Corrección de estilo',
-        centro: 'Centro agropecuario La Granja - Regional Tolima',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Carlos Julian Ramirez ',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Camilo Andres Bolaño Rey',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Wilson Andrés Arenales Cáceres',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: '',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-    ],
+  ccreditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patricia Aristizabal',
+          cargo: 'Líder del equipo',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Nombre completo',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Nombre centro de formación',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Nombre responsable',
+          cargo: 'Nombre del rol',
+          centro: 'Nombre centro de formación',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Carlos Julian Ramirez',
+          cargo: 'Diseñador web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andres Bolaño Rey',
+          cargo: 'Desarrollador Fullstack Junior',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: '',
+          cargo: 'Animador y Producción audiovisual',
+          centro: 'Nombre centro de formación',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Nombre validador',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Nombre centro formación',
+        },
+        {
+          nombre: 'Nombre validador',
+          cargo: 'Validación de contenidos accesibles',
+          centro: 'Nombre centro formación',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }
