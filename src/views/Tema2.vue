@@ -7,10 +7,12 @@
         span 2
       h1 Acuerdos y cumbres climáticas
     .card-tema2.p-4.mb-5
-      img.d-lg-block.d-none(src='@/assets/curso/images/tema2/1.png', alt='')
+      img.d-xl-block.d-none(src='@/assets/curso/images/tema2/1.png', alt='')
       .row.justify-content-center.align-items-center
-        .col-lg-4
-        .col-lg-8
+        .col-xl-4
+          img.mt-4.m-auto.d-lg-none.d-block.position-relative(src='@/assets/curso/images/tema2/1.png', alt='')
+
+        .col-xl-8
           p.mb-0 #[b Las preocupaciones que han surgido en diversas décadas por los cambios climáticos] han agrupado a diferentes economías que se interesan especialmente por los evidentes #[b cambios que se presentan en la naturaleza y que directamente afectan a diversas naciones, impactando su economía y consecuentemente la sociedad.] Por esta razón, es importante reconocer cuál ha sido la cronología en las diversas negociaciones que se han realizado a nivel mundial sobre el clima y qué países se han involucrado en estos acuerdos.
     p.my-5.py-lg-5(data-aos='fade-right') #[b En la siguiente línea de tiempo], se presenta un listado y descripción de diversos acuerdos y tratados que se han venido gestando a través del tiempo. Se recomienda tomar nota atenta de ellos. ¡Adelante!
     .tarjeta.p-4.mb-5(style="background-color: #f3f9ff ")
@@ -21,7 +23,7 @@
               .col-lg-1.mb-lg-0.mb-3
                 h3 1972
               .col-lg-11
-                p.mb-0 Estocolmo. Fue la primera cumbre ONU sobre cuestiones ambientales internacionales y marca inflexión en el desarrollo de la política internacional del medio ambiente(Timetoast, 2020)
+                p.mb-0 Estocolmo. Fue la primera cumbre ONU sobre cuestiones ambientales internacionales y marca inflexión en el desarrollo de la política internacional del medio ambiente(Timetoast, 2020).
         div(titulo="1979")
           .tarjeta(style="background-color: #deefff ").p-4
             .row.justify-content-center
@@ -179,39 +181,39 @@
     .tarjeta.bg-slyde.p-5 
       SlyderA
         .row
-          .col-md-5.mb-4.mb-md-0
+          .col-lg-5.mb-4.mb-md-0
             h4 1. ¿Qué es protocolo de Kioto?
             p #[b El protocolo de Kioto es un acuerdo multinacional] que compromete a los países industrializados a estabilizar las emisiones de gases de efecto invernadero. La convención por su parte solo alienta a los países a hacerlo.
 
-          .col-md-7
+          .col-lg-7
             figure
               img(src='@/assets/curso/images/tema2/2.png', alt='Texto que describa la imagen')
         .row
-          .col-md-5.mb-4.mb-md-0
+          .col-lg-5.mb-4.mb-md-0
             h4 2. Responsabilidad común diferenciada.
             p #[b El PK fue estructurado en función de los principios de la convención.] Establece metas vinculantes de reducción de las emisiones para 37 países industrializados y la Unión Europea, reconociendo que son los principales responsables de los elevados niveles de emisiones de Gases Efecto Invernadero (GEI) que hay actualmente en la atmósfera, y que son el resultado de quemar combustibles fósiles durante más de 150 años. En este sentido, el protocolo tiene un principio central: el de la «responsabilidad común pero diferenciada».
-          .col-md-7
+          .col-lg-7
             figure
               img(src='@/assets/curso/images/tema2/3.png', alt='Texto que describa la imagen')
         .row
-          .col-md-5.mb-4.mb-md-0
+          .col-lg-5.mb-4.mb-md-0
             h4 3. Moviendo a los gobiernos
             p #[b El protocolo ha movido a los gobiernos a establecer leyes y políticas] para cumplir sus compromisos, a las empresas a tener el medioambiente en cuenta a la hora de tomar decisiones sobre sus inversiones, y además ha propiciado la creación del mercado del carbono.”
-          .col-md-7
+          .col-lg-7
             figure
               img(src='@/assets/curso/images/tema2/4.png', alt='Texto que describa la imagen')
         .row
-          .col-md-5.mb-4.mb-md-0
+          .col-lg-5.mb-4.mb-md-0
             h4 4. Más que un simple propósito 
             p #[b El propósito de la firma del protocolo], más que comprometer a los diferentes países a disminuir los gases efecto invernadero, también es el de establecer metas y tiempos que contribuyan con la mitigación de las fuentes generadoras de estos gases que afectan la atmósfera y repercuten en el incremento de la temperatura del planeta con sus evidentes consecuencias, de acuerdo con lo publicado por el MADS en su página oficial.
-          .col-md-7
+          .col-lg-7
             figure
               img(src='@/assets/curso/images/tema2/5.png', alt='Texto que describa la imagen')
         .row
-          .col-md-5.mb-4.mb-md-0
+          .col-lg-5.mb-4.mb-md-0
             h4 5. ¿Un régimen mundial?
             p #[b Protocolo de Kioto] fue considerado como primer paso importante hacia un régimen verdaderamente mundial de reducción y estabilización de las emisiones de GEI, y proporciona la arquitectura esencial para cualquier acuerdo internacional sobre el cambio climático que se firme en el futuro. Ya concluyó el primer período de compromiso del protocolo de Kioto en 2012 y se amplió hasta el 2015, tiempo en el que tiene que haber quedado decidido y ratificado un nuevo marco internacional que pueda aportar las severas reducciones de las emisiones que según ha indicado claramente el Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC) son necesarias.
-          .col-md-7
+          .col-lg-7
             figure
               img(src='@/assets/curso/images/tema2/6.png', alt='Texto que describa la imagen')
 

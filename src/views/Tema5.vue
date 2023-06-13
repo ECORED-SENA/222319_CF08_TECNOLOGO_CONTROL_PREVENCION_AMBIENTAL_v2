@@ -62,7 +62,8 @@
       .row.justify-content-center.mb-5
         .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema5/8.png', alt='')
         .col-lg-9
-          p #[b Según el IDEAM, el concepto de cambio climático se define así:] 
+          h4 Cambio climático
+          p Según el IDEAM, el concepto de cambio climático se define así: 
             br
             br
             |“En el sentido más general, el término “cambio climático” abarca todas las formas de inconstancia climática (esto es, cualesquiera diferencias entre las estadísticas a largo plazo de los elementos meteorológicos calculados para distintos periodos, pero respecto a la misma zona), con independencia de su carácter estadístico o sus causas físicas. Los cambios climáticos pueden resultar de factores tales como los cambios de la emisión solar, los cambios a largo plazo de elementos de la órbita terrestre (excentricidad, oblicuidad de la eclíptica, precesión de los equinoccios), los procesos internos naturales del sistema climático o el forzamiento antropogénico (por ejemplo, aumento de las concentraciones atmosféricas de dióxido carbónico o de otros gases de efecto invernadero)”. (IDEAM, 2019) 
@@ -83,10 +84,10 @@
       .row.justify-content-center
         .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema5/10.png', alt='')
         .col-lg-9
-          p Para entender el concepto de calentamiento global, es importante reconocer cuál es el origen cronológico que inició este fenómeno que impacta de manera importante nuestro planeta. El portal climate.nasa.gov establece el siguiente argumento: 
+          p Para entender el concepto de calentamiento global, es importante reconocer cuál es el origen cronológico que inició este fenómeno que impacta de manera importante nuestro planeta. El portal #[a.fw-bold(href='http://climate.nasa.gov' target="_blank") climate.nasa.gov] establece el siguiente argumento: 
           .d-inline-flex.tarjeta.rounded-0.p-3.justify-content-center.align-items-center(style="background-color: white").mb-4
             img(src='@/assets/curso/images/tema5/9.svg', alt='' style="width: 109px").mx-4
-            p.mb-0.mx-5 “Es razonable suponer que los cambios en la producción de energía del sol causarían el cambio climático, ya que el sol es la fuente de energía fundamental que rige nuestro sistema climático”. 
+            p.mb-0.mx-5 Es razonable suponer que los cambios en la producción de energía del sol causarían el cambio climático, ya que el sol es la fuente de energía fundamental que rige nuestro sistema climático. 
           p De hecho, los estudios muestran que la variabilidad solar ha desempeñado un papel importante en cambios climáticos pasados. Por ejemplo, se cree que una disminución en la actividad solar, junto con un aumento en la actividad volcánica, ayudó a desencadenar la pequeña edad de hielo que tuvo lugar aproximadamente entre 1650 y 1850, cuando Groenlandia se enfrió desde 1410 hasta la década de 1720 y los glaciares avanzaron en Los Alpes. 
     .bg-1.p-5.mb-5
       .tarjeta.rounded-pill.color-primario.p-3.d-inline-flex.mb-4
@@ -94,7 +95,7 @@
       .row.justify-content-center
         .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema5/11.png', alt='')
         .col-lg-9
-          p Pero varias líneas de evidencia muestran que el calentamiento global actual no se puede explicar mediante los cambios en la energía del sol: 
+          p “Pero varias líneas de evidencia muestran que el calentamiento global actual no se puede explicar mediante los cambios en la energía del sol: 
             br
             br
             |Desde 1750, la cantidad promedio de energía procedente del sol se mantuvo constante o se incrementó levemente. 
@@ -106,7 +107,7 @@
             |Los modelos del clima que incluyen cambios en la radiación solar no pueden reproducir la tendencia de temperatura observada durante el último siglo o más sin incluir un aumento de los gases de efecto invernadero”. 
             br
             br
-            | #[b (NASA, 2021)] 
+            p.text-end #[b (NASA, 2021)] 
     .bg-1.p-5.mb-5
       .tarjeta.rounded-pill.color-primario.p-3.d-inline-flex.mb-4
         h4.text-white.d-flex.mb-0 Algunas conclusiones  
@@ -119,44 +120,44 @@
     .row.justify-content-center.mb-3
       .col-lg-10
         div(style="background-color: #faedc0 ").p-5
-          h4.text-center.mb-5  El portal climate.nasa.gov los sintetiza de la siguiente manera: 
+          h4.text-center.mb-5 La NASA (2021) los sintetiza de la siguiente manera:
           ol.lista-ol--cuadro
-            li
+            li.d-flex
               .lista-ol--cuadro__vineta(style="background-color: #0e494d ")
                 span.text-white.fw-bold 1
-              | En promedio, la tierra se calentará. Algunas regiones podrían aceptar gustosamente temperaturas más cálidas, pero otras no. 
-            li
+              p.mb-0 En promedio, la tierra se calentará. Algunas regiones podrían aceptar gustosamente temperaturas más cálidas, pero otras no. 
+            li.d-flex
               .lista-ol--cuadro__vineta(style="background-color: #0e494d ")
                 span.text-white.fw-bold 2
-              | Las condiciones climáticas más cálidas probablemente llevarán a una mayor evaporación y a más precipitación en general, pero el impacto variará según las regiones: algunas se volverán más húmedas y otras, más secas. 
-            li
+              p.mb-0 Las condiciones climáticas más cálidas probablemente llevarán a una mayor evaporación y a más precipitación en general, pero el impacto variará según las regiones: algunas se volverán más húmedas y otras, más secas. 
+            li.d-flex
               .lista-ol--cuadro__vineta(style="background-color: #0e494d ")
                 span.text-white.fw-bold 3
-              | Un efecto invernadero más fuerte calentará los océanos y derretirá parcialmente el hielo y los glaciares, lo que aumentará el nivel del mar. El agua del océano también se expandirá si se calienta, lo que provocará un mayor aumento del nivel del mar. 
-            li
+              p.mb-0 Un efecto invernadero más fuerte calentará los océanos y derretirá parcialmente el hielo y los glaciares, lo que aumentará el nivel del mar. El agua del océano también se expandirá si se calienta, lo que provocará un mayor aumento del nivel del mar. 
+            li.d-flex
               .lista-ol--cuadro__vineta(style="background-color: #0e494d ")
                 span.text-white.fw-bold 4
-              | Mientras tanto, ciertos cultivos y ciertas plantas podrían responder favorablemente al aumento del CO2 atmosférico, creciendo más vigorosamente y usando el agua de manera más eficiente.  
-            li
+              p.mb-0 Mientras tanto, ciertos cultivos y ciertas plantas podrían responder favorablemente al aumento del CO2 atmosférico, creciendo más vigorosamente y usando el agua de manera más eficiente.  
+            li.d-flex
               .lista-ol--cuadro__vineta(style="background-color: #0e494d ")
                 span.text-white.fw-bold 5
-              | Asimismo, las elevadas temperaturas y los cambiantes patrones climáticos podrían cambiar las áreas donde crecen mejor los cultivos y afectar la composición de las comunidades naturales de las plantas. 
+              p.mb-0 Asimismo, las elevadas temperaturas y los cambiantes patrones climáticos podrían cambiar las áreas donde crecen mejor los cultivos y afectar la composición de las comunidades naturales de las plantas. 
     figcaption.d-inline-flex.mb-5 (NASA, 2021) 
     p.mb-5(data-aos='fade-right') En esta misma línea de profundización en las problemáticas de contaminación ambiental, se destacan las que se pueden visualizar a continuación y algunos datos que ilustran la comprensión de las mismas: 
     .tarjeta.rounded-pill.color-primario.p-3.d-inline-flex.mb-4
         h4.text-white.d-flex.mb-0 2016, el año más cálido registrado 
-    p(data-aos='fade-right') Según el portal www.conservation.org, los datos de la NASA y la Administración Nacional Oceánica y Atmosférica (NOAA) muestran que los promedios globales en 2016 fueron 0.99 ºC más cálidos que el promedio de mediados del siglo XX. Diecisiete de los 18 años más cálidos de la historia han ocurrido desde el año 2000.
+    p(data-aos='fade-right') Según el portal #[a(href='http://coservation.org' target="_blank") www.conservation.org], los datos de la NASA y la Administración Nacional Oceánica y Atmosférica (NOAA) muestran que los promedios globales en 2016 fueron 0.99 ºC más cálidos que el promedio de mediados del siglo XX. Diecisiete de los 18 años más cálidos de la historia han ocurrido desde el año 2000.
     figcaption.d-inline-flex.mb-5 (Conservación Internacional, 2019)
     SlyderE(indicadores="izquierda")
       .row.mx-4
         .col-md-5.mb-4.mb-md-0
-          h4 Smog
-          p Consecuentemente al cambio climático, uno de los fenómenos que se desarrollan es el smog fotoquímico. El IDEAM lo define como: 
+          h4.fst-italic Smog
+          p Consecuentemente al cambio climático, uno de los fenómenos que se desarrollan es el #[em smog] fotoquímico. El IDEAM lo define como: 
             br
             br
-            |“Smog formado por la oxidación de hidrocarburos, siendo producido el agente oxidante por reacciones fotoquímicas entre la radiación solar ultravioleta y diversos componentes atmosféricos” (IDEAM, 2019). 
+            |“#[em Smog] formado por la oxidación de hidrocarburos, siendo producido el agente oxidante por reacciones fotoquímicas entre la radiación solar ultravioleta y diversos componentes atmosféricos” (IDEAM, 2019). 
           a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-            span Origen del smog fotoquímico 
+            span Origen del #[em smog] fotoquímico 
             .indicador--click(v-if="mostrarIndicador")
         .col-md-7
           figure
@@ -165,6 +166,7 @@
         .col-md-5.mb-4.mb-md-0
           h4 Masas de aire 
           p Por ende, la contaminación atmosférica se ve atrapada en estas masas de aire, así como lo referencia la guía para docentes sobre calidad del aire, donde se expone que … “la capa de inversión térmica se presenta a una menor altura, lo que reduce la dilución de contaminantes en dirección vertical. Por otra parte, los vientos alisios o planetarios se debilitan, generando períodos de calma que pueden durar varios días. Y a esto se suma el encajonamiento propio de las zonas urbanas respecto de los cordones montañosos circundantes, lo que reduce las posibilidades de dispersión lateral de los contaminantes. Se generan así las condiciones propicias para su concentración en los períodos más fríos”. 
+          p.mt-3.text-end (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
           a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
             span En que influye ?
             .indicador--click(v-if="mostrarIndicador")
@@ -174,7 +176,7 @@
       .row.mx-4
         .col-md-5.mb-4.mb-md-0
           h4 Efecto invernadero 
-          p Cuando hablamos de la contaminación atmosférica, se involucran directamente los conceptos de smog fotoquímico e inversión térmica, a los cuales se une uno más importante y determinante, como lo es el efecto invernadero. Este fenómeno natural es muy importante para el planeta; sin embargo, el crecimiento de la población mundial y sus diversas actividades antrópicas incrementan este fenómeno, generando consecuencias desastrosas. 
+          p Cuando hablamos de la contaminación atmosférica, se involucran directamente los conceptos de #[em smog] fotoquímico e inversión térmica, a los cuales se une uno más importante y determinante, como lo es el efecto invernadero. Este fenómeno natural es muy importante para el planeta; sin embargo, el crecimiento de la población mundial y sus diversas actividades antrópicas incrementan este fenómeno, generando consecuencias desastrosas. 
             br
             br
             |#[b Según el IDEAM, el efecto invernadero es el “calentamiento de las capas inferiores de la atmósfera debido a sus propiedades de absorción diferentes para las longitudes de onda larga y corta”.] (IDEAM, 2012). 
@@ -184,7 +186,7 @@
       .row.mx-4
         .col-md-5.mb-4.mb-md-0
           h4 La GPDSCA estable 
-          p “… La tierra, cuando recibe la radiación solar, no absorbe toda la energía que proviene del sol, sino que refleja parte de ella de vuelta a la atmósfera, donde se encuentra con gases que retienen de manera natural la energía proveniente del sol y mantienen el planeta más caliente de lo que estaría en su ausencia. Como resultado de este efecto, la tierra se mantiene lo suficientemente templada como para permitir la vida en su superficie y en sus océanos. 
+          p La tierra, cuando recibe la radiación solar, no absorbe toda la energía que proviene del sol, sino que refleja parte de ella de vuelta a la atmósfera, donde se encuentra con gases que retienen de manera natural la energía proveniente del sol y mantienen el planeta más caliente de lo que estaría en su ausencia. Como resultado de este efecto, la tierra se mantiene lo suficientemente templada como para permitir la vida en su superficie y en sus océanos.
           a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
             span Mas Información
             .indicador--click(v-if="mostrarIndicador")
@@ -193,24 +195,25 @@
             img(src='@/assets/curso/images/tema5/16.jpg', alt='Texto que describa la imagen')
     ModalA(:abrir-modal.sync="modal1")
       .tarjeta.bg-white.p-1
-        h4 Origen del smog fotoquímico 
+        h4 Origen del #[em smog] fotoquímico 
         .row.justify-content-center.align-items-center.mb-2
           .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema5/a1.svg', alt='')
           .col-lg-10
-            p.mb-0 El smog fotoquímico se puede apreciar en algunas ocasiones sobre el horizonte, especialmente en la mañana y cuando el sol refleja su radiación en la atmósfera produciendo un color entre rojizo y marrón, como una nube que se posa en el aire que respiramos. 
-        p “Este se origina por la combinación del aire con contaminantes durante un período de altas presiones. Este tipo de smog se desarrolla en prácticamente todas las grandes ciudades del mundo, especialmente en aquellas con mucho tráfico, soleadas y con poco movimiento de las masas de aire. 
+            p.mb-0 El #[em smog] fotoquímico se puede apreciar en algunas ocasiones sobre el horizonte, especialmente en la mañana y cuando el sol refleja su radiación en la atmósfera produciendo un color entre rojizo y marrón, como una nube que se posa en el aire que respiramos. 
+        p “Este se origina por la combinación del aire con contaminantes durante un período de altas presiones. Este tipo de #[em smog] se desarrolla en prácticamente todas las grandes ciudades del mundo, especialmente en aquellas con mucho tráfico, soleadas y con poco movimiento de las masas de aire.
           br
           br
-          | El smog fotoquímico se forma a partir de las reacciones entre la luz solar y los óxidos de nitrógeno (NOx) y/o compuestos orgánicos volátiles (COV). Estas reacciones provocan la formación de ozono (O3) o dióxidos de azufre (SO2), y otros contaminantes secundarios, como formaldehído y cetonas. Este tipo de smog se intensifica cuando, aparte del tráfico intenso y la producción industrial que emiten NOx y COV a la atmósfera, se presenta un período de inversión térmica que impide la circulación del aire”. 
+          |El smog fotoquímico se forma a partir de las reacciones entre la luz solar y los óxidos de nitrógeno (NOx) y/o compuestos orgánicos volátiles (COV). Estas reacciones provocan la formación de ozono (O3) o dióxidos de azufre (SO2), y otros contaminantes secundarios, como formaldehído y cetonas. Este tipo de #[em smog] se intensifica cuando, aparte del tráfico intenso y la producción industrial que emiten NOx y COV a la atmósfera, se presenta un período de inversión térmica que impide la circulación del aire”.
           br
           br
-          | “La producción de smog fotoquímico oscurece la atmósfera dejando un aire teñido de color marrón rojizo, cargado de componentes dañinos para la salud de las personas y del medio ambiente. Aparte de ensuciar el aire y entregarle un aspecto de niebla, causa daños sobre zonas forestales y agrícolas cercanas a las ciudades”. 
+          |“La producción de #[em smog] fotoquímico oscurece la atmósfera dejando un aire teñido de color marrón rojizo, cargado de componentes dañinos para la salud de las personas y del medio ambiente. Aparte de ensuciar el aire y entregarle un aspecto de niebla, causa daños sobre zonas forestales y agrícolas cercanas a las ciudades”.
+        p.text-end (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
     ModalA(:abrir-modal.sync="modal2")
       .tarjeta.bg-white.p-4
         .row.justify-content-center.align-items-center.mb-2
             .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema5/a2.svg', alt='')
             .col-lg-10
-              p.mb-0 La inversión térmica influye directamente en la generación del smog fotoquímico, sin embargo, la mezcla de varios contaminantes de tipo criterio, más el dióxido de carbono, son quienes producen ese cúmulo de gases nocivos que se presentan en la atmósfera, mejor conocido como la contaminación atmosférica. 
+              p.mb-0 La inversión térmica influye directamente en la generación del #[em smog] fotoquímico, sin embargo, la mezcla de varios contaminantes de tipo criterio, más el dióxido de carbono, son quienes producen ese cúmulo de gases nocivos que se presentan en la atmósfera, mejor conocido como la contaminación atmosférica. 
         h5 Para tener presente 
         p El fenómeno de la inversión térmica es completamente natural, sin embargo “La atmósfera se comporta de manera adiabática, esto significa que el aire al ascender se enfría y al descender se calienta. 
           br
@@ -226,7 +229,7 @@
         p.mb-5(data-aos='fade-right') Aparte de este efecto invernadero natural, las sociedades humanas están intensificando el fenómeno, principalmente a través de la quema de combustibles fósiles y la tala de bosques.  
           br
           br
-          |Al adicionar a la atmósfera mayores concentraciones de gases con efecto invernadero, se obtiene como resultado un progresivo calentamiento de la temperatura media en la superficie del planeta”. 
+          |Al adicionar a la atmósfera mayores concentraciones de gases con efecto invernadero, se obtiene como resultado un progresivo calentamiento de la temperatura media en la superficie del planeta. 
     .row.justify-content-center.mb-5
       .col-lg-10 
         .tarjeta.color-primario.p-3.mb-5
@@ -266,7 +269,7 @@
         .bloque-texto-e.p-4(style="background-color: #ecf7f4").h-100
             .bloque-texto-e__texto.mb-5
               i.fas.fa-quote-left(style='color: #34bc85')
-              p.text-regular En la actualidad, los climatólogos están comenzando a entender cuáles de las calamidades del año pasado se pueden o no se pueden relacionar con el calentamiento global. En una nueva serie de trabajos que se publicaron recientemente en Bulletin of the American Meteorological Society, investigadores de todo el mundo analizaron veintisiete eventos climáticos extremos de 2016 y encontraron que el cambio climático que ha provocado el hombre era un “motor significativo” en veintiuno de ellos
+              p.text-regular En la actualidad, los climatólogos están comenzando a entender cuáles de las calamidades del año pasado se pueden o no se pueden relacionar con el calentamiento global. En una nueva serie de trabajos que se publicaron recientemente en #[em Bulletin of the American Meteorological Society], investigadores de todo el mundo analizaron veintisiete eventos climáticos extremos de 2016 y encontraron que el cambio climático que ha provocado el hombre era un “motor significativo” en veintiuno de ellos
               i.fas.fa-quote-right(style='color: #34bc85')
             .row.align-items-end
               .col

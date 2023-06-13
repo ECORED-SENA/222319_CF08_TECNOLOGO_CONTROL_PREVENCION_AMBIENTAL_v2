@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Diagnosticar e interpretar resultados de contaminación atmosférica según normativa vigente.',
+      'Diagnosticar e interpretar resultados de contaminación atmosférica según normativa vigente',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz podrá favorecer procesos de comprensión, análisis y aplicación de diagnósticos de la problemática ambiental y de interpretación de mediciones de contaminación atmosférica, basándose en procedimientos técnicos y normativa ambiental vigente.',
+      'Con el estudio de este componente, el aprendiz podrá favorecer procesos de comprensión, análisis y aplicación de diagnósticos de la problemática ambiental y de interpretación de mediciones de contaminación atmosférica, basándose en procedimientos técnicos y normativa ambiental vigente',
     fondoBannerPrincipal: require('@/assets/curso/images/header/banner.png'),
     imagenBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),

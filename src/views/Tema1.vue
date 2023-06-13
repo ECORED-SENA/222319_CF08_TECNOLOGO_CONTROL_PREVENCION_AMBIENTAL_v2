@@ -14,7 +14,7 @@
         p Según el portal BBC News Mundo (2014), el término en español proviene del latín #[em "terra"], con el mismo significado que en español y relacionado con el verbo "torror", que significa “secar” o “chamuscar”. Se piensa que quizás se debe a que, en la filosofía presocrática, una línea de pensamiento era que la tierra provenía del agua que se secó.
           br
           br
-          |En inglés, la palabra #[em "Earth"] se deriva de la germana "erde", que significa "suelo".
+          |En inglés, la palabra #[em "Earth"] se deriva de la germana #[em "erde"], que significa "suelo".
           br
           br
           |Las raíces de esas palabras datan de una época en que la humanidad aún no sabía que la tierra era un planeta. Las palabras sólo significaban el suelo bajo sus pies y fueron adoptadas como el nombre del planeta después. 
@@ -25,11 +25,10 @@
           .tarjeta.w-100(style="background-color: #ebf5f2" ).rounded-0
             .p-5.mt-2
               h3.text-center Relación hombre-ecosistema
-              p La relación intrínseca de los ecosistemas y el hombre se convierte en vital para que la especie pueda mantenerse y evolucionar en el tiempo, pero depende inevitablemente del equilibrio frágil que hay entre la naturaleza y lo que el hombre extrae y necesita de ella, según el portal #[span(style='color: #42bf8c').fw-bold ecocolmena.com.] 
+              p La relación intrínseca de los ecosistemas y el hombre se convierte en vital para que la especie pueda mantenerse y evolucionar en el tiempo, pero depende inevitablemente del equilibrio frágil que hay entre la naturaleza y lo que el hombre extrae y necesita de ella, según el portal  #[a(href='https://ecocolmena.com' target="_blank") #[span(style='color: #42bf8c').fw-bold ecocolmena.com.] ]
                 br
                 br
-                |La película #[em The Happening] (El Incidente / El fin de los tiempos), de M. Night Shyamalan, retomó una frase atribuida a Albert Einstein que dice “Si la abeja desapareciera del planeta, al hombre solo le quedarían 4 años de vida”. 
-
+                |La película #[em The Happening] (#[em El Incidente] / El fin de los tiempos), de M. Night Shyamalan, retomó una frase atribuida a Albert Einstein que dice “Si la abeja desapareciera del planeta, al hombre solo le quedarían 4 años de vida”. 
 
       .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar
@@ -67,29 +66,11 @@
           .tarjeta.p-5.tarjeta-tabs(titulo="Cambios en las acciones del ser humano")
             p Las repercusiones a nivel ecosistémico, en el agua, aire y suelo, se ven impactadas a tal nivel que los cambios del comportamiento del hombre en su día a día se ven reflejados en sus acciones extractivas de los recursos naturales, lo que aumenta a medida que se presentan más y más cambios atmosféricos en nuestro planeta.
           .tarjeta.p-5.tarjeta-tabs(titulo="¿Qué esperar?")
-            p Las repercusiones a nivel ecosistémico, en el agua, aire y suelo, se ven impactadas a tal nivel que los cambios del comportamiento del hombre en su día a día se ven reflejados en sus acciones extractivas de los recursos naturales, lo que aumenta a medida que se presentan más y más cambios atmosféricos en nuestro planeta.
+            p Según el portal #[a(href="https://sostenibilidad.com" target="_blank") #[span(style='color: #00744c').fw-bold sostenibilidad.com]], el incremento de la temperatura del planeta por consecuencia de la actividad antrópica produciría "un alarmante aumento del nivel del mar, 10 que expondría a 69 millones de personas a catástrofes como inundaciones en las zonas de costa".
           .tarjeta.p-5.tarjeta-tabs(titulo="Lo irreversible")
-            p “En el Acuerdo de París ratificado en 2015, la mayoría de países del mundo (196 partes, para ser más exactos) acordaron mantener por debajo de 2 °C el incremento de la temperatura global del planeta y hacer esfuerzos para limitarlo a 1.5 °C. 
-              br
-              |La fecha fijada para llegar a estos objetivos es 2050. Pero la realidad es que, a este paso, en algo más de 20 años habremos superado el primero de los límites.”
+            p La pérdida de biodiversidad que padeceríamos con el aumento a 1.5 &#176;C sería catastrófica, pero si el ascenso es a 2 &#176;C, el problema sería completamente irreversible por la desaparición de especies de plantas, animales, insectos, e incluso la muerte de casi la totalidad de los arrecifes de coral". "Con un aumento de la temperatura del planeta de 2 &#176;C, el 13 % de la superficie terrestre sufriría estos cambios, por ejemplo, de tundra a bosque, 10 que supondría desajustes irreversibles en su flora y su fauna.
           .tarjeta.p-5.tarjeta-tabs(titulo="¿Alguna esperanza?")
-            p Las repercusiones a nivel ecosistémico, en el agua, aire y suelo, se ven impactadas a tal nivel que los cambios del comportamiento del hombre en su día a día se ven reflejados en sus acciones extractivas de los recursos naturales, lo que aumenta a medida que se presentan más y más cambios atmosféricos en nuestro planeta.
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .tarjeta.mb-5(style="background-color: #faedc0")
-          .row.justify-content-around
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/images/tema1/6.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  .p-3
-                    h3.mb-1 El Ciudadano TV. (2019, 25 agosto). Hace 40 años predijeron el calentamiento global 
-                    p.text-small lhttps://www.youtube.com/watch?v=1nhyQiWmVio
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco.mx-5(href="https://www.youtube.com/watch?v=1nhyQiWmVio" target="_blank")
-                    span Ver video
-                    i.fas.fa-video
+            p Si el aumento de la temperatura planetaria es de 1.5 &#176;C, este riesgo se reduce al 4 % del área terrestre; a mayor temperatura, mayor impacto en el permafrost del Ártico, que se descongelaría entre un 35 % y un 47 % con una subida de 2 &#176;C, reduciéndose al 21 % en caso de que el aumento de la temperatura del planeta que padezcamos sea de 1.5 &#176;C."
 
 
 
