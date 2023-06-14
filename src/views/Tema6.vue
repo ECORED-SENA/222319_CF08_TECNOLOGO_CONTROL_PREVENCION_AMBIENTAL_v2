@@ -132,7 +132,7 @@ export default {
   data: () => ({
     datosLineaTiempo1: [
       {
-        titulo: '​Decreto 1600 de 1994.',
+        titulo: '​Decreto 1600 de 1994',
         texto:
           ' Por el cual se reglamenta parcialmente el Sistema Nacional Ambiental (SINA) en relación con los Sistemas Nacionales de Investigación Ambiental y de Información Ambiental.',
         icono: require('@/assets/curso/images/tema6/a1.svg'),
@@ -144,13 +144,13 @@ export default {
         icono: require('@/assets/curso/images/tema6/a1.svg'),
       },
       {
-        titulo: 'Resolución 0941 de 2009.',
+        titulo: 'Resolución 0941 de 2009',
         texto:
           'Por la cual se crea el subsistema de información sobre uso de los recursos naturales renovables – SIUR y se adopta el Registro Único Ambiental RUA.  ',
         icono: require('@/assets/curso/images/tema6/a1.svg'),
       },
       {
-        titulo: 'Decreto 2041 de 2014.',
+        titulo: 'Decreto 2041 de 2014',
         texto:
           'Por el cual se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales.  ',
         icono: require('@/assets/curso/images/tema6/a1.svg'),
@@ -171,7 +171,7 @@ export default {
         icono: require('@/assets/curso/images/tema6/a1.svg'),
       },
       {
-        titulo: 'Decreto 979 de 2006.',
+        titulo: 'Decreto 979 de 2006',
         texto:
           'Por el cual se modifican los artículos 7,10, 93, 94 y 108 del Decreto 948 de 1995. ',
         icono: require('@/assets/curso/images/tema6/a1.svg'),

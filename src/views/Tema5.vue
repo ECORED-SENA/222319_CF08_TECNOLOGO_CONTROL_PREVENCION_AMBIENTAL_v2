@@ -241,7 +241,7 @@
                 .col-10.mb-3.mb-sm-0
                   p.fw-bold Las problemáticas de contaminación ambiental son un elemento muy amplio de estudio y análisis. Entérese aún más sobre este tema en el archivo anexo.
                 .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_ProblematicasContaminacionAmbiental.pdf')" target="_blank" type="application/pdf")
                     span(style="color: #0e494d") Descargar 
                     i.fas.fa-file-download(style="color: #0e494d")
     Separador
@@ -317,6 +317,15 @@
               .tarjeta.bg-white.p-4
                 p “En los últimos años, ha aparecido una gran masa de agua caliente inusual en las costas de Alaska, a la cual se le conoce popularmente como “la mancha”. Estas aguas cálidas han permitido que prolifere un alga tóxica en toda la región, la cual ha provocado la muerte de miles de aves marinas y ha forzado el cierre de pescaderías locales”.
             .col-md-4: img(src='@/assets/curso/images/tema5/23.png', alt='')
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          div(style="background-color: #faedc0 ")
+            .row.justify-content-center.mb-5
+              .col-lg-2: img(src="@/assets/curso/images/tema1/6.svg")
+              .col-lg-10
+                .p-4
+                  h4 ¡Atención! 
+                  p En el futuro, los científicos esperan refinar y estandarizar sus métodos de atribución, para que las comunidades afectadas por tormentas, incendios forestales u otros eventos extremos puedan aprender mucho más rápido cómo ese evento pudo estar influenciado por el calentamiento global y tomar acciones para adaptarse. Por eso es importante tener conciencia de que las acciones que realizamos se reflejan en las consecuencias ambientales que vemos día a día.
 
       
 

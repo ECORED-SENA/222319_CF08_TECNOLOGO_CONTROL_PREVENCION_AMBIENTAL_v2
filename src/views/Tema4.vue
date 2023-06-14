@@ -150,24 +150,24 @@
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/images/tema4/8.svg', alt='Texto que describa la imagen')
-              .tarjeta.color-acento-contenido.p-3(x="7%" y="98%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="7%" y="69%" numero="" style='background-color: #d3ede5')
                 h4 Material Particulado
                 p El Material Particulado (MP) se clasifica según su diámetro, característica de la cual depende la intensidad de sus impactos. Las partículas de diámetros menores a 10 micrones, conocidas como MP10, y de diámetros menores a 2.5 micrones, conocidas como MP2.5. Este último es el contaminante más dañino para la salud y que genera mayores niveles de mortalidad prematura en la población.
-              .tarjeta.color-acento-contenido.p-3(x="25%" y="98%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="25%" y="69%" numero="" style='background-color: #d3ede5')
                 h4 Monóxico de Carbono (CO)
                 p Este gas es producto de la combustión incompleta de los combustibles, al existir una cantidad insuficiente de oxígeno, dando como resultado CO en vez de CO2. Los vehículos a motor y los procesos industriales son responsables de aproximadamente el 80 % de estas emisiones a la atmósfera. Sin embargo, también se produce al interior del hogar por la combustión residencial de leña para calefacción, cocinas, humo de cigarrillo y calefones.
                   br
                   br
                   |Este compuesto es uno de los gases más letales por su capacidad inhibidora de oxígeno - molécula en la sangre, lo que produce en el organismo una ausencia porcentual del mismo, siendo de esta manera muy letal.
 
-              .tarjeta.color-acento-contenido.p-3(x="45.5%" y="98%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="45.5%" y="69%" numero="" style='background-color: #d3ede5')
                 h4 Óxidos de nitrógeno (NOx)
                 p Estos gases se producen durante el quemado de maderas y combustibles fósiles, como gasolina, carbón y gas natural.
                   br
                   br
                   | " El sector transporte constituye la fuente principal de emisión de NOx. El mayor desplazamiento en vehículos particulares por parte de la población en las grandes ciudades y el crecimiento sostenido del parque automotriz son una de las causas más importantes del aumento de las emisiones de este contaminante. Cabe tener presente que los vehículos con motor a diésel emiten una mayor cantidad de contaminantes que aquéllos a gasolina, por lo que también es relevante considerar la composición del parque automotriz". (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
 
-              .tarjeta.color-acento-contenido.p-3(x="68%" y="98%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="68%" y="69%" numero="" style='background-color: #d3ede5')
                 h4 Familia de compuestos nitrogenados
                 p Cuando hablamos de los NOx, se incluye una familia de compuestos nitrogenados en la que se encuentran:
                 ul.lista-ul--color
@@ -186,23 +186,22 @@
                   li
                     i.fas.fa-angle-right
                     | Pentóxido de nitrógeno (N2O5).
-              .tarjeta.color-acento-contenido.p-3(x="91%" y="98%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="91%" y="69%" numero="" style='background-color: #d3ede5')
                 h4 Óxidos de azufre 
                 p El dióxido de azufre (SO2) y trióxido de azufre (SO3) son los óxidos dominantes del azufre presentes en la atmósfera. Son producto de la combustión de combustibles fósiles, principalmente derivados del petróleo y carbón. Los óxidos de azufre pueden acelerar la corrosión de los materiales al formar primero ácido sulfúrico en la atmósfera o sobre la superficie de los metales.
 
       .row.justify-content-center.mb-5
         .col-lg-10
           div(style="background-color: #faedc0 ")
-            .row.justify-content-center.mb-5
+            .row.justify-content-center.mb-5.align-items-center
               .col-lg-2: img(src="@/assets/curso/images/tema1/6.svg")
-              .col-lg-10
+              .col-lg-7
                 .p-4
                   p Es importante saber que el material particulado proviene de la mayoría de fuentes, sean naturales o antropogénicas, que no necesariamente son partículas sólidas, también pueden ser líquidas, llegando a ser aún más nocivas.
-      .row.justify-content-center.mb-5
-        .col-lg-10
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/aaOiL7CQd74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              .col-3
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=aaOiL7CQd74" target="_blank" type="application/pdf")
+                        span Ver video
+                        i.fas.fa-video
     p.mb-5(data-aos='fade-right') Para finalizar con el estudio de los principales contaminantes atmosféricos, se recomienda observar atentamente los que se muestran a continuación. 
     .tarjeta.bg-slyde.p-5.mb-5
       SlyderA
