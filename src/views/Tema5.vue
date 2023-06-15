@@ -148,7 +148,7 @@
         h4.text-white.d-flex.mb-0 2016, el año más cálido registrado 
     p(data-aos='fade-right') Según el portal #[a(href='http://coservation.org' target="_blank") www.conservation.org], los datos de la NASA y la Administración Nacional Oceánica y Atmosférica (NOAA) muestran que los promedios globales en 2016 fueron 0.99 ºC más cálidos que el promedio de mediados del siglo XX. Diecisiete de los 18 años más cálidos de la historia han ocurrido desde el año 2000.
     figcaption.d-inline-flex.mb-5 (Conservación Internacional, 2019)
-    SlyderE(indicadores="izquierda")
+    SlyderE(indicadores="izquierda").mb-5
       .row.mx-4
         .col-md-5.mb-4.mb-md-0
           h4.fst-italic Smog
@@ -161,7 +161,7 @@
             .indicador--click(v-if="mostrarIndicador")
         .col-md-7
           figure
-            img(src='@/assets/curso/images/tema5/13.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema5/13.jpg', alt='')
       .row.mx-4
         .col-md-5.mb-4.mb-md-0
           h4 Masas de aire 
@@ -172,7 +172,18 @@
             .indicador--click(v-if="mostrarIndicador")
         .col-md-7
           figure
-            img(src='@/assets/curso/images/tema5/14.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema5/14.jpg', alt='')
+      .row.mx-4
+        .col-md-5.mb-4.mb-md-0
+          h4 Inversión térmica 
+          p Para identificar el origen del smog fotoquímico, es importante reconocer qué es la inversión térmica. 
+            br
+            br
+            |“Como hemos visto, en condiciones normales de la tropósfera, las masas de aire cálido asociadas a la superficie terrestre se enfrían al ascender. La inversión térmica se presenta cuando se interpone una masa de aire más caliente que obstaculiza este tránsito, provocando una especie de barrera que no permite que el aire frío que se encuentra bajo ésta, pueda subir, dificultando la dispersión de los contaminantes emitidos desde la superficie”. 
+          p.mt-3.text-end (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
+        .col-md-7
+          figure
+            img(src='@/assets/curso/images/tema5/c1.jpg', alt='')
       .row.mx-4
         .col-md-5.mb-4.mb-md-0
           h4 Efecto invernadero 
@@ -182,7 +193,7 @@
             |#[b Según el IDEAM, el efecto invernadero es el “calentamiento de las capas inferiores de la atmósfera debido a sus propiedades de absorción diferentes para las longitudes de onda larga y corta”.] (IDEAM, 2012). 
         .col-md-7
           figure
-            img(src='@/assets/curso/images/tema5/15.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema5/15.jpg', alt='')
       .row.mx-4
         .col-md-5.mb-4.mb-md-0
           h4 La GPDSCA estable 
@@ -192,7 +203,7 @@
             .indicador--click(v-if="mostrarIndicador")
         .col-md-7
           figure
-            img(src='@/assets/curso/images/tema5/16.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/images/tema5/16.jpg', alt='')
     ModalA(:abrir-modal.sync="modal1")
       .tarjeta.bg-white.p-1
         h4 Origen del #[em smog] fotoquímico 
