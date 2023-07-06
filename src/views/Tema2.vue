@@ -178,7 +178,7 @@
     .tarjeta(style="background-color: #faffeb").p-3.mb-5
       .titulo-sexto.color-secundario(data-aos='fade-right')
         p.mb-0 Colombia, país latinoamericano que hace parte de la Organización de las Naciones Unidas ONU y también de la Organización de Estados Americanos OEA, no es ajeno a los tratados internacionales que van en  pro de la protección de los recursos naturales y el planeta; se comprometió en el año 2012 con la firma del protocolo de Kioto, según el Ministerio de Ambiente y Desarrollo Sostenible MADS que resume los acuerdos establecidos.
-    .tarjeta.bg-slyde.p-5 
+    .tarjeta.bg-slyde.p-5.mb-5 
       SlyderA
         .row
           .col-lg-5.mb-4.mb-md-0
@@ -187,35 +187,66 @@
 
           .col-lg-7
             figure
-              img(src='@/assets/curso/images/tema2/2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema2/2.png', alt='')
         .row
           .col-lg-5.mb-4.mb-md-0
             h4 2. Responsabilidad común diferenciada.
             p #[b El PK fue estructurado en función de los principios de la convención.] Establece metas vinculantes de reducción de las emisiones para 37 países industrializados y la Unión Europea, reconociendo que son los principales responsables de los elevados niveles de emisiones de Gases Efecto Invernadero (GEI) que hay actualmente en la atmósfera, y que son el resultado de quemar combustibles fósiles durante más de 150 años. En este sentido, el protocolo tiene un principio central: el de la «responsabilidad común pero diferenciada».
           .col-lg-7
             figure
-              img(src='@/assets/curso/images/tema2/3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema2/3.png', alt='')
         .row
           .col-lg-5.mb-4.mb-md-0
             h4 3. Moviendo a los gobiernos
             p #[b El protocolo ha movido a los gobiernos a establecer leyes y políticas] para cumplir sus compromisos, a las empresas a tener el medioambiente en cuenta a la hora de tomar decisiones sobre sus inversiones, y además ha propiciado la creación del mercado del carbono.”
           .col-lg-7
             figure
-              img(src='@/assets/curso/images/tema2/4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema2/4.png', alt='')
         .row
           .col-lg-5.mb-4.mb-md-0
             h4 4. Más que un simple propósito 
             p #[b El propósito de la firma del protocolo], más que comprometer a los diferentes países a disminuir los gases efecto invernadero, también es el de establecer metas y tiempos que contribuyan con la mitigación de las fuentes generadoras de estos gases que afectan la atmósfera y repercuten en el incremento de la temperatura del planeta con sus evidentes consecuencias, de acuerdo con lo publicado por el MADS en su página oficial.
           .col-lg-7
             figure
-              img(src='@/assets/curso/images/tema2/5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema2/5.png', alt='')
         .row
           .col-lg-5.mb-4.mb-md-0
             h4 5. ¿Un régimen mundial?
             p #[b Protocolo de Kioto] fue considerado como primer paso importante hacia un régimen verdaderamente mundial de reducción y estabilización de las emisiones de GEI, y proporciona la arquitectura esencial para cualquier acuerdo internacional sobre el cambio climático que se firme en el futuro. Ya concluyó el primer período de compromiso del protocolo de Kioto en 2012 y se amplió hasta el 2015, tiempo en el que tiene que haber quedado decidido y ratificado un nuevo marco internacional que pueda aportar las severas reducciones de las emisiones que según ha indicado claramente el Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC) son necesarias.
           .col-lg-7
             figure
-              img(src='@/assets/curso/images/tema2/6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema2/6.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        div(style="background-color: #faedc0 ")
+          .row.justify-content-center.mb-5
+            .col-lg-2.col-4: img.m-lg-0.mt-5(src="@/assets/curso/images/tema1/6.svg")
+            .col-lg-10
+              .p-5
+                p Usted debe conocer que, entre las metas que se establecen en este acuerdo mundial, el cual fue firmado por Colombia, están:
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-check(style="color: #feb12e")
+                    p.mb-0 #[b Dióxido de carbono (CO2) ]
+                  li.d-flex
+                    i.fas.fa-check(style="color: #feb12e")
+                    p.mb-0 #[b Metano (CH4) ]
+                  li.d-flex
+                    i.fas.fa-check(style="color: #feb12e")
+                    p.mb-0 #[b Óxido nitroso (N2O) ]
+                  li.d-flex
+                    i.fas.fa-check(style="color: #feb12e")
+                    p.mb-0 #[b Hidrofluorocarbonos (HFC)]
+                  li.d-flex
+                    i.fas.fa-check(style="color: #feb12e")
+                    p.mb-0 #[b Perfluorocarbonos (PFC)]
+                  li.d-flex
+                    i.fas.fa-check(style="color: #feb12e")
+                    p.mb-0 #[b Hexafluoruro de azufre (SF6) ]
+                p Como aprendiz, conozca y reconozca la importancia de los acuerdos que firma Colombia y a lo que se compromete, con la finalidad de que sea veedor y cabal vigilante desde su casa y trabajo, con las acciones que se realizan día a día.
+                .d-flex.justify-content-end 
+                  p (Minambiente 2020)
+
 
 
 

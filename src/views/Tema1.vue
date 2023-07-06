@@ -48,7 +48,7 @@
       .col-lg-6.mb-lg-0.mb-3(data-aos="fade-left"): img(src='@/assets/curso/images/tema1/5.svg', alt='')
     p.mb-5(data-aos='fade-right') A continuación, se presentan una serie de datos que refuerzan las bases de comprensión y de sentido de esta unidad y de todo el componente. ¡Adelante!
     div(style="background-color: #f3f9ff").p-5.mb-5
-      .px-5
+      .px-lg-5.px-0
         h4.text-center Algunas reflexiones y conclusiones sobre la problemática atmosférica
         p Conozca algunos datos conclusivos sobre la problemática atmosférica y las acciones o disposiciones o denuncias que los países, instituciones internacionales u organizaciones a nivel mundial, han proclamado en favor del cambio y de mejoras para el medio ambiente y la especie humana. Además, observe atentamente el vídeo que le presentamos.
         TabsA.color-acento-contenido.mb-5

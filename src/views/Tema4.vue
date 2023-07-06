@@ -14,7 +14,7 @@
           .tarjeta.w-100(style="background-color: #ebf5f2" ).rounded-0
             .p-5.mt-2
               h3.text-center Los contaminantes 
-              p Los contaminantes criterio como el CO2, los dióxidos de azufre, óxidos de nitrógeno, el material particulado, entre otros, se condensan en la parte superior de la tropósfera produciendo lo que conocemos como #[em smog] fotoquímico. Estos compuestos, al reaccionar con la radiación solar, exacerban las concentraciones y la temperatura media del planeta, aumentando las consecuencias, tanto en los receptores humanos como en los ecosistemas, debido a las actividades antrópicas que impactan directamente en la sociedad por la relación del consumo y la economía para el desarrollo de la humanidad. 
+              p Los contaminantes criterio como el #[math.notacion #[msub #[mi CO]#[mn 2]]], los dióxidos de azufre, óxidos de nitrógeno, el material particulado, entre otros, se condensan en la parte superior de la tropósfera produciendo lo que conocemos como #[em smog] fotoquímico. Estos compuestos, al reaccionar con la radiación solar, exacerban las concentraciones y la temperatura media del planeta, aumentando las consecuencias, tanto en los receptores humanos como en los ecosistemas, debido a las actividades antrópicas que impactan directamente en la sociedad por la relación del consumo y la economía para el desarrollo de la humanidad. 
       .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/images/tema4/2.png' alt='AvatarTop' style="width: 300px")
@@ -67,7 +67,7 @@
       .col-lg-10
         div(style="background-color: #faedc0 ")
           .row.justify-content-center.mb-5
-            .col-lg-2: img(src="@/assets/curso/images/tema1/6.svg")
+            .col-lg-2.col-4: img.m-lg-0.mt-5(src="@/assets/curso/images/tema1/6.svg")
             .col-lg-10
               .p-4
                 h4 ¡Atención! 
@@ -149,25 +149,25 @@
             ImagenInfografica.color-acento-botones.mb-5
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/images/tema4/8.svg', alt='Texto que describa la imagen')
-              .tarjeta.color-acento-contenido.p-3(x="7%" y="69%" numero="" style='background-color: #d3ede5')
+                  img(src='@/assets/curso/images/tema4/8.svg', alt='')
+              .tarjeta.color-acento-contenido.p-3(x="7%" y="63%" numero="" style='background-color: #d3ede5')
                 h4 Material Particulado
                 p El Material Particulado (MP) se clasifica según su diámetro, característica de la cual depende la intensidad de sus impactos. Las partículas de diámetros menores a 10 micrones, conocidas como MP10, y de diámetros menores a 2.5 micrones, conocidas como MP2.5. Este último es el contaminante más dañino para la salud y que genera mayores niveles de mortalidad prematura en la población.
-              .tarjeta.color-acento-contenido.p-3(x="25%" y="69%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="25%" y="63%" numero="" style='background-color: #d3ede5')
                 h4 Monóxico de Carbono (CO)
                 p Este gas es producto de la combustión incompleta de los combustibles, al existir una cantidad insuficiente de oxígeno, dando como resultado CO en vez de CO2. Los vehículos a motor y los procesos industriales son responsables de aproximadamente el 80 % de estas emisiones a la atmósfera. Sin embargo, también se produce al interior del hogar por la combustión residencial de leña para calefacción, cocinas, humo de cigarrillo y calefones.
                   br
                   br
                   |Este compuesto es uno de los gases más letales por su capacidad inhibidora de oxígeno - molécula en la sangre, lo que produce en el organismo una ausencia porcentual del mismo, siendo de esta manera muy letal.
 
-              .tarjeta.color-acento-contenido.p-3(x="45.5%" y="69%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="45.5%" y="63%" numero="" style='background-color: #d3ede5')
                 h4 Óxidos de nitrógeno (NOx)
                 p Estos gases se producen durante el quemado de maderas y combustibles fósiles, como gasolina, carbón y gas natural.
                   br
                   br
                   | " El sector transporte constituye la fuente principal de emisión de NOx. El mayor desplazamiento en vehículos particulares por parte de la población en las grandes ciudades y el crecimiento sostenido del parque automotriz son una de las causas más importantes del aumento de las emisiones de este contaminante. Cabe tener presente que los vehículos con motor a diésel emiten una mayor cantidad de contaminantes que aquéllos a gasolina, por lo que también es relevante considerar la composición del parque automotriz". (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
 
-              .tarjeta.color-acento-contenido.p-3(x="68%" y="69%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="68%" y="63%" numero="" style='background-color: #d3ede5')
                 h4 Familia de compuestos nitrogenados
                 p Cuando hablamos de los NOx, se incluye una familia de compuestos nitrogenados en la que se encuentran:
                 ul.lista-ul--color
@@ -186,22 +186,22 @@
                   li
                     i.fas.fa-angle-right
                     | Pentóxido de nitrógeno (N2O5).
-              .tarjeta.color-acento-contenido.p-3(x="91%" y="69%" numero="" style='background-color: #d3ede5')
+              .tarjeta.color-acento-contenido.p-3(x="91%" y="63%" numero="" style='background-color: #d3ede5')
                 h4 Óxidos de azufre 
-                p El dióxido de azufre (SO2) y trióxido de azufre (SO3) son los óxidos dominantes del azufre presentes en la atmósfera. Son producto de la combustión de combustibles fósiles, principalmente derivados del petróleo y carbón. Los óxidos de azufre pueden acelerar la corrosión de los materiales al formar primero ácido sulfúrico en la atmósfera o sobre la superficie de los metales.
+                p El dióxido de azufre (#[math.notacion #[msub #[mi SO]#[mn 2]]])  y trióxido de azufre (#[math.notacion #[msub #[mi SO]#[mn 3]]])  son los óxidos dominantes del azufre presentes en la atmósfera. Son producto de la combustión de combustibles fósiles, principalmente derivados del petróleo y carbón. Los óxidos de azufre pueden acelerar la corrosión de los materiales al formar primero ácido sulfúrico en la atmósfera o sobre la superficie de los metales.
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          div(style="background-color: #faedc0 ")
+          div(style="background-color: #faedc0 ").p-4.p-lg-0
             .row.justify-content-center.mb-5.align-items-center
-              .col-lg-2: img(src="@/assets/curso/images/tema1/6.svg")
+              .col-lg-2.col-4: img.m-lg-0.mt-5(src="@/assets/curso/images/tema1/6.svg")
               .col-lg-7
                 .p-4
                   p Es importante saber que el material particulado proviene de la mayoría de fuentes, sean naturales o antropogénicas, que no necesariamente son partículas sólidas, también pueden ser líquidas, llegando a ser aún más nocivas.
-              .col-3
+              .col-lg-3.col-4
                 a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=aaOiL7CQd74" target="_blank" type="application/pdf")
-                        span Ver video
-                        i.fas.fa-video
+                  span Ver video
+                  i.fas.fa-video
     p.mb-5(data-aos='fade-right') Para finalizar con el estudio de los principales contaminantes atmosféricos, se recomienda observar atentamente los que se muestran a continuación. 
     .tarjeta.bg-slyde.p-5.mb-5
       SlyderA
@@ -212,29 +212,24 @@
             p.text-end.mt-3 (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
           .col-md-6
             figure
-              img(src='@/assets/curso/images/tema4/9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema4/9.png', alt='')
         .row.mb-5.pb-5
           .col-md-6.mb-4.mb-md-0
             h5 Especificación sobre los COV 
             p Según el Ministerio para la Transición Ecológica y el Reto Demográfico (2016),  “Los compuestos orgánicos volátiles (COV) son todos aquellos hidrocarburos que se presentan en estado gaseoso a la temperatura ambiente normal o que son muy volátiles a dicha temperatura. Se puede considerar como COV aquel compuesto orgánico que a 20ºC tenga una presión de vapor de 0.01 kPa o más, o una volatilidad equivalente en las condiciones particulares de uso”. 
           .col-md-6
             figure
-              img(src='@/assets/curso/images/tema4/11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema4/11.png', alt='')
         .row.mb-5.pb-5
           .col-md-6.mb-4.mb-md-0
             h5 Peligrosidad de los COV 
             p Con respecto a su peligrosidad, los COV pueden clasificarse en 3 grupos:
               br
               br
-              | #[b Compuestos extremadamente peligrosos para la salud:]  
+              | #[b Compuestos extremadamente peligrosos para la salud:] benceno, cloruro de vinilo y 1,2 dicloroetano. 
               br
               br
-              |Benceno, cloruro de vinilo y 1,2 dicloroetano. 
-              br
-              |#[b Compuestos clase A:] 
-              br
-              br
-              |los que pueden causar daños significativos al medio ambiente, como acetaldehído, anilina, tricloroetileno, etc. 
+              |#[b Compuestos clase A:] los que pueden causar daños significativos al medio ambiente, como acetaldehído, anilina, tricloroetileno, etc. 
               br
               br
               |#[b Compuestos clase B:] tienen menor impacto en el medio ambiente. Pertenecen a este grupo, entre otros, acetona y etanol.
@@ -243,12 +238,12 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/images/tema4/10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema4/10.png', alt='')
     .row.justify-content-center.mb-3
         .col-lg-10
           div(style="background-color: #faedc0 ")
             .row.justify-content-center.mb-3
-              .col-lg-2: img(src="@/assets/curso/images/tema1/6.svg")
+              .col-lg-2.col-4: img.m-lg-0.mt-5(src="@/assets/curso/images/tema1/6.svg")
               .col-lg-10
                 .p-4
                   h5 Para tener en cuenta 
@@ -280,17 +275,18 @@
             p “Este contaminante proviene de la combustión de gasolinas con plomo, de la minería y fundiciones, y de la incineración de residuos. El plomo puede depositarse en el agua y alimentos que consumimos, por lo que puede ser absorbido por nuestro cuerpo”.   
           .col-md-6
             figure
-              img(src='@/assets/curso/images/tema4/12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema4/12.png', alt='')
         .row.mb-5.pb-5
           .col-md-6.mb-4.mb-md-0
-            h5 Ozono troposférico (O3) 
+
+            h5 Ozono troposférico (#[math.notacion #[msub #[mi O]#[mn 3]]]) 
             p “Se trata del principal componente del #[em smog] fotoquímico y uno de los más fuertes agentes oxidantes. El ozono se forma en la tropósfera y de la acción de esta en las moléculas de ozono en la estratósfera, como producto de la reacción entre los NOX, los COV y los hidrocarburos (HC) en presencia de radiación solar. Las fuentes de hidrocarburos y NOx en las zonas urbanas son primordialmente los vehículos”. 
               br
               br
               |(Ministerio de Medio Ambiente. Gobierno de Chile, 2018) 
           .col-md-6
             figure
-              img(src='@/assets/curso/images/tema4/13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema4/13.png', alt='')
     h3 Estándares de emisiones en Colombia 
     p.mb-5(data-aos='fade-right') En Colombia, la Resolución 909 de 2008, por la cual se establecen los estándares de emisiones industriales a nivel nacional, establece la principal actividad antrópica generadora de estos contaminantes tipo criterio. Es importante reconocer qué tipo de procesos son generadores de estos compuestos. A continuación, se presenta un fragmento de la tabla 3 de las actividades industriales y contaminantes a monitorear por actividad industrial. 
     Separador
@@ -301,36 +297,32 @@
       br
       | Principales afectaciones en la salud y el ambiente por contaminantes:  
     .row.justify-content-between.mb-5
-      .col-lg-7.mb-lg-0.mb-3
+      .col-lg-7.mb-lg-0.mb-3.order-lg-1.order-2
         AcordionA.acordion_botones.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             div(titulo="Material Particulado (MP)")
-              p Por su tamaño, estas partículas son capaces de ingresar al sistema respiratorio, provocando potenciales daños a sus órganos principales. Mientras menor sea su diámetro, mayor será el potencial de daño a la salud humana. Las partículas de MP2,5 penetran hasta los alvéolos pulmonares e ingresan directamente al torrente sanguíneo, aumentando los riesgos de mortalidad prematura. En general, el MP puede también dañar las plantas, inhibir el crecimiento de la vegetación y corroer materiales. 
+              p Por su tamaño, estas partículas son capaces de ingresar al sistema respiratorio, provocando potenciales daños a sus órganos principales. Mientras menor sea su diámetro, mayor será el potencial de daño a la salud humana. Las partículas de #[math.notacion #[msub #[mi MP]#[mn 2]]],5 penetran hasta los alvéolos pulmonares e ingresan directamente al torrente sanguíneo, aumentando los riesgos de mortalidad prematura. En general, el MP puede también dañar las plantas, inhibir el crecimiento de la vegetación y corroer materiales. 
             div(titulo="Impacto del monóxido de carbono (CO) ")
               p Tiene efectos perjudiciales, ya que en altas concentraciones puede causar cambios fisiológicos y patológicos y, finalmente, la muerte. Principalmente, el daño que produce es que el CO sustituye al oxígeno en la sangre, formando la carboxihemoglobina (COHb), lo que produce un menor transporte de oxígeno en la sangre, una disminución de las funciones neuroconductuales, menor peso en niños recién nacidos y retardo en el desarrollo postnatal. Al parecer, el monóxido de carbono no tiene efectos perjudiciales sobre la superficie de los materiales. Se han hecho experimentos que han demostrado que el CO no produce efectos dañinos en plantas a concentraciones por debajo de 100 ppm, teniendo en cuenta que rara vez las concentraciones ambientales de este contaminante pueden alcanzar este nivel, ni siquiera en cortos períodos. 
             div(titulo="Óxidos de nitrógeno (NOx)")
-              p Los NOx son responsables de importantes efectos sobre la salud y el medio ambiente, como problemas respiratorios o daño pulmonar, enfermedades en pulmones y bronquios, mayor susceptibilidad a las infecciones, daño celular, irritación ocular y pérdida de las mucosas. El NO2 puede reaccionar con la humedad presente en la atmósfera para formar ácido nítrico, que puede ser causa de corrosión de las superficies metálicas y detener el crecimiento de plantas. 
+              p Los #[math.notacion #[msub #[mi NO]#[mn x]]] son responsables de importantes efectos sobre la salud y el medio ambiente, como problemas respiratorios o daño pulmonar, enfermedades en pulmones y bronquios, mayor susceptibilidad a las infecciones, daño celular, irritación ocular y pérdida de las mucosas. El #[math.notacion #[msub #[mi NO]#[mn 2]]]  puede reaccionar con la humedad presente en la atmósfera para formar ácido nítrico, que puede ser causa de corrosión de las superficies metálicas y detener el crecimiento de plantas. 
             div(titulo="Óxidos de azufre (SOx)")
-              p Estos gases pueden alterar el funcionamiento de los bronquios, producir daño pulmonar y a las vías respiratorias, irritación ocular y paros cardíacos en personas. Concentraciones altas de SO2 pueden conducir a lesiones crónicas en plantas, mientras que producen daño al medio ambiente al inhibir el crecimiento de vegetación. 
-      .col-lg-5.col-8: img(src='@/assets/curso/images/tema4/14.png', alt='Texto que describa la imagen')
+              p Estos gases pueden alterar el funcionamiento de los bronquios, producir daño pulmonar y a las vías respiratorias, irritación ocular y paros cardíacos en personas. Concentraciones altas de #[math.notacion #[msub #[mi SO]#[mn 2]]]  pueden conducir a lesiones crónicas en plantas, mientras que producen daño al medio ambiente al inhibir el crecimiento de vegetación. 
+      .col-lg-5.col-8.order-lg-2.order-1.m-auto: img.mb-3(src='@/assets/curso/images/tema4/14.png', alt='')
     .row.justify-content-between.mb-5
-      .col-lg-5.col-8: img(src='@/assets/curso/images/tema4/15.png', alt='Texto que describa la imagen')
+      .col-lg-5.col-8.m-auto.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema4/15.png', alt='')
       .col-lg-7.mb-lg-0.mb-3
         AcordionA.acordion_botones.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Compuestos Orgánicos Volátiles (COV)")
             p Estos compuestos pueden producir irritación de ojos, garganta y pulmones, así como inhibición del crecimiento de las plantas. También se asocia a una mayor probabilidad de desarrollar leucemia y otros tipos de cáncer. 
           div(titulo="Plomo (Pb)")
             p Este contaminante proviene de la combustión de gasolina con plomo, de la minería y fundiciones, y de la incineración de residuos. El plomo puede depositarse en el agua y alimentos que consumimos, por lo que puede ser absorbido por nuestro cuerpo. 
-          div(titulo="Ozono troposférico (O3)")
+          div(titulo="Ozono troposférico (<math class=notacion> <msub> <mi> O</mi> <mn> 3</mn>) </msub></math>)")
             p Su toxicidad ocurre en continuo, a mayores concentraciones se generan efectos más nocivos. Provocan tos y dolores de cabeza, irritación de ojos, nariz y garganta, incremento de la mucosidad, estertores, cierre de las vías respiratorias, dolores de tórax, languidez, malestar y náuseas, con aumento en la incidencia de ataques asmáticos. También puede agravar enfermedades crónicas del corazón. 
               br
               br
               |(Ministerio de Medio Ambiente. Gobierno de Chile, 2018) 
           div(titulo="Monitoreo en Colombia ")
-            p En Colombia, se monitorean los principales contaminantes atmosféricos tipo criterio (MP, SOx, NOx, CO, entre otros) y mediante una herramienta estadística que se denomina ICA, o Índice de Calidad del Aire, en la que se establece un código de colores que indican cómo se encuentra la calidad del aire que respiramos, los cuales varían dependiendo de la concentración del contaminante que esté presente en el aire. 
-    p.mb-5(data-aos='fade-right') Para contextualizar el contenido, es posible visualizar el siguiente video
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/FtKg9zJ6oNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            p En Colombia, se monitorean los principales contaminantes atmosféricos tipo criterio (MP, #[math.notacion #[msub #[mi SO]#[mn x]]], #[math.notacion #[msub #[mi NO]#[mn x]]], CO, entre otros) y mediante una herramienta estadística que se denomina ICA, o Índice de Calidad del Aire, en la que se establece un código de colores que indican cómo se encuentra la calidad del aire que respiramos, los cuales varían dependiendo de la concentración del contaminante que esté presente en el aire. 
     Separador 
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.4 La Calidad del aire y su seguimiento 
@@ -370,7 +362,7 @@
       h4.text-white.d-flex.mb-0 Acciones preventivas 
     p.mb-5(data-aos='fade-right') Es muy importante conocer qué acciones preventivas debemos ejecutar cuando se conocen los diferentes estados de la concentración de los contaminantes presentes en el aire que respiramos.  
     .row.justify-content-center.mb-5
-      .col-lg-6.col-8: img(src='@/assets/curso/images/tema4/18.png', alt='')
+      .col-lg-6.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema4/18.png', alt='')
       .col-lg-6.mb-lg-0.mb-3
         .bloque-texto-e.color-primario.p-4(style="background-color: #d4ebe4 ").h-100
           .bloque-texto-e__texto
@@ -383,7 +375,7 @@
         .col-lg-10
           div(style="background-color: #faedc0 ")
             .row.mb-3.align-items-center
-              .col-lg-2: img(src="@/assets/curso/images/tema1/6.svg")
+              .col-lg-2.col-4: img.m-lg-0.mt-5(src="@/assets/curso/images/tema1/6.svg")
               .col-lg-7
                 .p-4
                   h5 Para contextualizar este contenido, se puede visualizar el video del siguiente enlace:

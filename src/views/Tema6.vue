@@ -55,15 +55,15 @@
               div
                 h4 Protocolo asociado 
                 ul.lista-ul--color
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Protocolo para el monitoreo y seguimiento de la calidad del aire. 
+                    p.mb-0 Protocolo para el monitoreo y seguimiento de la calidad del aire. 
 
-                  li
+                  li.d-flex
                     i.fas.fa-check
-                    | Manual de diseño de sistemas de vigilancia de calidad del aire. 
+                    p.mb-0 Manual de diseño de sistemas de vigilancia de calidad del aire. 
     Separador
-    #t_6_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+    #t_6_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 6.4 Fuentes fijas
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema6/5.svg', alt='')
@@ -84,28 +84,29 @@
           h4 Métodos de medición y protocolos asociados 
           p #[b Resolución 0935 de 2011] por la cual se establecen los métodos para la evaluación de emisiones contaminantes por fuentes fijas y se determina el número de pruebas o corridas para la medición de contaminantes en fuentes fijas. 
             br
+            br
             |#[b Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas.] 
             br
             br
-            |#[b Método 1] – Determinación del punto y velocidad de muestreo para fuentes estacionarias. 
+            |#[b Método 1] - Determinación del punto y velocidad de muestreo para fuentes estacionarias. 
             br
             |#[b Método 1A] - Determinación del punto y velocidad de muestreo para fuentes estacionarias con ductos o chimeneas pequeñas. 
             br
-            |#[b Método 2] – Determinación de la velocidad y tasa de flujo volumétrica de gases en chimenea (Tubo Pitot tipo S). 
+            |#[b Método 2] - Determinación de la velocidad y tasa de flujo volumétrica de gases en chimenea (Tubo Pitot tipo S). 
             br
-            |#[b Método 3] – Análisis de gases para la determinación del peso molecular base seca. 
+            |#[b Método 3] - Análisis de gases para la determinación del peso molecular base seca. 
             br
-            |#[b Método 3B] – Análisis de gases para la determinación del factor de corrección de tasa de emisión o exceso de aire. 
+            |#[b Método 3B] - Análisis de gases para la determinación del factor de corrección de tasa de emisión o exceso de aire. 
             br
-            |#[b Método 4] – Determinación del contenido de humedad en gases de chimenea. 
+            |#[b Método 4] - Determinación del contenido de humedad en gases de chimenea. 
             br
-            |#[b Método 5] – Determinación de las emisiones de material particulado en fuentes estacionarias. 
+            |#[b Método 5] - Determinación de las emisiones de material particulado en fuentes estacionarias. 
             br
-            |#[b Método 6] – Determinación de las emisiones de dióxido de azufre en fuentes estacionarias. 
+            |#[b Método 6] - Determinación de las emisiones de dióxido de azufre en fuentes estacionarias. 
             br
-            |#[b Método 7] – Determinación de las emisiones de óxidos de nitrógeno en fuentes estacionarias. 
+            |#[b Método 7] - Determinación de las emisiones de óxidos de nitrógeno en fuentes estacionarias. 
             br
-            |#[b Método 12] – Determinación de las emisiones de plomo inorgánico en fuentes estacionarias. 
+            |#[b Método 12] - Determinación de las emisiones de plomo inorgánico en fuentes estacionarias. 
             br
             |Número de pruebas o corridas para la medición de contaminantes. 
     Separador

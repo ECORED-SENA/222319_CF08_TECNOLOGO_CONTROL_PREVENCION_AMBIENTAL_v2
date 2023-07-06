@@ -8,10 +8,12 @@
       h1 Bases conceptuales
     p.mb-5(data-aos='fade-right') Para continuar adentrándose en el estudio de este componente, es fundamental afianzar y reforzar algunos conceptos, términos, elementos teóricos y técnicos que tienen relación directa con el tema y que potenciarán su comprensión, asimilación y apropiación de los temas.
     .card-tema3.p-5.mb-5
-      img.d-xl-block.d-none(src='@/assets/curso/images/tema3/1.svg', alt='')
+      img.img1.d-xl-block.d-none(src='@/assets/curso/images/tema3/1.svg', alt='')
+      
       .row.justify-content-center.align-items-center
-        .col-lg-3
-          img.d-xl-none.d-inline-flex.justify-item-center.position-relative.mt-4(src='@/assets/curso/images/tema3/1.svg', alt='')
+        .col-lg-3.col-6
+         
+          img.d-xl-none.d-block.position-relative(src='@/assets/curso/images/tema3/1.svg', alt='')
         .col-lg-9
           h4 Meteorología
 
@@ -24,31 +26,31 @@
             p.mb-0 Para poder entender la meteorología, es necesario comprender sus conceptos claves, como atmósfera: #[b “envoltura gaseosa que rodea la tierra. Capa gaseosa que rodea nuestro planeta. Además de contener el aire, incluye partículas sólidas y líquidas en suspensión o aerosoles y nubes”.] (IDEAM, 2019)
       .col-lg-4: img(src='@/assets/curso/images/tema3/2.png', alt='')
     h4 Formación de la atmósfera terrestre
-    .tarjeta.bg-slyde.p-5
+    .tarjeta.bg-slyde.p-lg-5.p-3
       h5.text-center.mb-4 Según el portal #[a.fw-bold(href='https://capasdelatierra.org' target="_blank") www.capasdelatierra.org:]
       .row.justify-content-center.mb-3
-        .col-lg-6
-          .tarjeta.bg-white.p-5.h-100
+        .col-lg-6.mb-lg-0.mb-3
+          .tarjeta.bg-white.p-lg-5.p-4.h-100
             .titulo-sexto.color-secundario(data-aos='fade-right')
               p.mb-0 &#34;Se cree que la tierra se formó hace unos 5 mil millones de años y que muchos de los gases de nuestra atmósfera fueron expulsados al aire por los primeros volcanes; durante los primeros 500 millones de años, hubo poco o nada de oxígeno libre alrededor de la tierra. El oxígeno libre consiste en moléculas de oxígeno no unidas a otro elemento, por ejemplo, el carbono (para formar dióxido de carbono) o el hidrógeno (para formar agua)&#34;
-        .col-lg-6
-          .tarjeta.bg-white.p-5.h-100
+        .col-lg-6.mb-lg-0.mb-3
+          .tarjeta.bg-white.p-lg-5.p-4.h-100
             .titulo-sexto.color-secundario(data-aos='fade-right')
               p.mb-0 &#34;Hace mil millones de años, los primeros organismos acuáticos, llamados algas verdeazuladas, comenzaron a usar la energía del sol para dividir las moléculas de agua (H2O) y el dióxido de carbono (CO2), recombinándolas en compuestos orgánicos y oxígeno molecular (O2). Este proceso de conversión de energía solar se conoce como fotosíntesis.&#34;
       .row.justify-content-center.mb-3
-        .col-lg-6
-          .tarjeta.bg-white.p-5.h-100
+        .col-lg-6.mb-lg-0.mb-3
+          .tarjeta.bg-white.p-lg-5.p-4.h-100
             .titulo-sexto.color-secundario(data-aos='fade-right')
-              p.mb-0 &#34;En lo alto de la atmósfera, algunas moléculas de oxígeno (O2) absorbieron energía de los rayos ultravioleta (UV) del sol y se dividieron para formar átomos individuales de oxígeno. Estos átomos se combinaron con el oxígeno restante y formaron moléculas de ozono (O3), un gas capaz de absorber los rayos UV. La capa de ozono que rodea la tierra actúa como escudo protector contra la radiación UV
+              p.mb-0 &#34;En lo alto de la atmósfera, algunas moléculas de oxígeno (O2) absorbieron energía de los rayos ultravioleta (UV) del sol y se dividieron para formar átomos individuales de oxígeno. Estos átomos se combinaron con el oxígeno restante y formaron moléculas de ozono (O3), un gas capaz de absorber los rayos UV. La capa de ozono que rodea la tierra actúa como escudo protector contra la radiación UV.&#34;
         .col-lg-6
-          .tarjeta.bg-white.p-5.h-100
+          .tarjeta.bg-white.p-lg-5.p-4.h-100
             .titulo-sexto.color-secundario(data-aos='fade-right')
               p.mb-0 &#34;El aire que respiramos está compuesto en un 78% de nitrógeno (N2), un 21% de oxígeno (O2), 0.9% de argón (Ar) y 0.04% de dióxido de carbono (CO2). El resto está compuesto por elementos llamados oligoelementos, que incluyen vapor de agua, ozono y otras partículas / moléculas que flotan alrededor&#34;
             p.text-end.mt-5 (Capas de la Tierra, 2018)
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/images/tema3/3.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/images/tema3/3.png', alt='')
       .tarjeta.white-opacity.min-width-info.p-3(x="50%" y="35%" numero="")
         h5 Exósfera 
         p “La última de las capas de la atmósfera es la exósfera. Esta es la capa más alejada de la superficie terrestre y, debido a su altura, es la más indefinida y por eso no es en sí considerada una capa de la atmósfera. Más o menos se extiende entre los 600-800 km de altura hasta los 9.000-10.000 km. Esta capa de la atmósfera es la que separa el planeta tierra del espacio exterior y en ella los átomos se escapan. Está compuesta en su mayoría de hidrógeno”. (Portillo, 2021) 
@@ -77,7 +79,7 @@
       .col-lg-10
         div(style="background-color: #faedc0 ")
           .row.justify-content-center.mb-5
-            .col-lg-2: img(src="@/assets/curso/images/tema1/6.svg")
+            .col-lg-2.col-4: img.m-lg-0.mt-5(src="@/assets/curso/images/tema1/6.svg")
             .col-lg-10
               .p-5
                 p Para continuar conociendo los aspectos conceptuales básicos que favorecerán el estudio de este componente y que ayudarán a apropiar, más y mejor, la problemática atmosférica, se invita a desarrollar la siguiente actividad.
@@ -88,7 +90,7 @@
     ImagenInfograficaB.color-secundario.modal-custom.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/images/tema3/4.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/images/tema3/4.svg', alt='')
       div(x="23.5%" y="61%" tooltip="Ver mas" numero="+")
         h5.mb-2 Presión atmosférica
         p Presión (fuerza por unidad de área) ejercida por la atmósfera sobre cualquier superficie en virtud de su peso. Equivale al peso de una columna de aire de sección transversal unitaria que se extiende desde un nivel dado hasta el límite superior de la atmósfera (IDEAM, 2019).  
@@ -242,7 +244,7 @@ export default {
   position: relative
   display: flex
   background-color: #d3ede5
-  img
+  img.img1
     position: absolute
     width: 185px
     top: 0

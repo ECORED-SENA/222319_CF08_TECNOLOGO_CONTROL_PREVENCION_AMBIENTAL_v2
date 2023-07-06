@@ -56,14 +56,6 @@ export default {
         numero: '2',
         titulo: 'Acuerdos y cumbres climáticas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Colombia y el protocolo de Kioto',
-            hash: 't_2_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -71,14 +63,6 @@ export default {
         numero: '3',
         titulo: 'Bases conceptuales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Presión atmosférica',
-            hash: 't_3_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -223,7 +207,7 @@ export default {
     {
       referencia:
         'BBC News Mundo. (2018, 3 diciembre). Cambio climático: los 6 gráficos que muestran el estado actual del calentamiento global.',
-      link: 'https://www.bbc.com/mundo/noticias-46426822.',
+      link: 'https://www.bbc.com/mundo/noticias-46426822',
     },
     {
       referencia:
@@ -280,7 +264,7 @@ export default {
       referencia:
         'Minambiente. (2020). Protocolo de Kioto. Ministerio de Ambiente y Desarrollo Sostenible.',
       link:
-        'https://www.minambiente.gov.co/wp-content/uploads/2021/10/INFORME_GESTION_MINAMBIENTE_2020.pdf ',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/10/INFORME_GESTION_MINAMBIENTE_2020.pdf',
     },
     {
       referencia:
@@ -384,13 +368,13 @@ export default {
     },
   ],
   complementario: [
-    {
-      tema: '1. Comprensión de la problemática atmosférica',
-      referencia:
-        'El Ciudadano TV. (2019, 25 agosto). Hace 40 años predijeron el calentamiento global [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=1nhyQiWmVio',
-    },
+    // {
+    //   tema: '1. Comprensión de la problemática atmosférica',
+    //   referencia:
+    //     'El Ciudadano TV. (2019, 25 agosto). Hace 40 años predijeron el calentamiento global [Video]. YouTube.',
+    //   tipo: 'Video',
+    //   link: 'https://www.youtube.com/watch?v=1nhyQiWmVio',
+    // },
 
     {
       tema: '3. Bases conceptuales',
@@ -433,7 +417,7 @@ export default {
       referencia:
         'Facultad Online. (2018, 8 octubre). Efecto Invernadero | Explicación y cómo combatirlo!! [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=eJrAvZRWKgY',
+      link: 'https://www.youtube.com/watch?v=JsBSJE_TCOA',
     },
 
     {

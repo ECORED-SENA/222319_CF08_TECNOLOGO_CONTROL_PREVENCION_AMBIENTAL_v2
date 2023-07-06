@@ -85,9 +85,10 @@
         .col-lg-3.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema5/10.png', alt='')
         .col-lg-9
           p Para entender el concepto de calentamiento global, es importante reconocer cuál es el origen cronológico que inició este fenómeno que impacta de manera importante nuestro planeta. El portal #[a.fw-bold(href='http://climate.nasa.gov' target="_blank") climate.nasa.gov] establece el siguiente argumento: 
-          .d-inline-flex.tarjeta.rounded-0.p-3.justify-content-center.align-items-center(style="background-color: white").mb-4
-            img(src='@/assets/curso/images/tema5/9.svg', alt='' style="width: 109px").mx-4
-            p.mb-0.mx-5 Es razonable suponer que los cambios en la producción de energía del sol causarían el cambio climático, ya que el sol es la fuente de energía fundamental que rige nuestro sistema climático. 
+          .d-lg-flex.tarjeta.rounded-0.p-3.justify-content-center.align-items-center.flex-wrap(style="background-color: white").mb-4
+            .d-flex.justify-content-center
+              img.mb-lg-0.mb-3.m-auto(src='@/assets/curso/images/tema5/9.svg', alt='' style="width: 109px").mx-4
+            p.mb-0.mx-4.d-inline-flex Es razonable suponer que los cambios en la producción de energía del sol causarían el cambio climático, ya que el sol es la fuente de energía fundamental que rige nuestro sistema climático. 
           p De hecho, los estudios muestran que la variabilidad solar ha desempeñado un papel importante en cambios climáticos pasados. Por ejemplo, se cree que una disminución en la actividad solar, junto con un aumento en la actividad volcánica, ayudó a desencadenar la pequeña edad de hielo que tuvo lugar aproximadamente entre 1650 y 1850, cuando Groenlandia se enfrió desde 1410 hasta la década de 1720 y los glaciares avanzaron en Los Alpes. 
     .bg-1.p-5.mb-5
       .tarjeta.rounded-pill.color-primario.p-3.d-inline-flex.mb-4
@@ -146,7 +147,7 @@
     p.mb-5(data-aos='fade-right') En esta misma línea de profundización en las problemáticas de contaminación ambiental, se destacan las que se pueden visualizar a continuación y algunos datos que ilustran la comprensión de las mismas: 
     .tarjeta.rounded-pill.color-primario.p-3.d-inline-flex.mb-4
         h4.text-white.d-flex.mb-0 2016, el año más cálido registrado 
-    p(data-aos='fade-right') Según el portal #[a(href='http://coservation.org' target="_blank") www.conservation.org], los datos de la NASA y la Administración Nacional Oceánica y Atmosférica (NOAA) muestran que los promedios globales en 2016 fueron 0.99 ºC más cálidos que el promedio de mediados del siglo XX. Diecisiete de los 18 años más cálidos de la historia han ocurrido desde el año 2000.
+    p(data-aos='fade-right') Según el portal #[a(href='https://www.conservation.org/' target="_blank") www.conservation.org], los datos de la NASA y la Administración Nacional Oceánica y Atmosférica (NOAA) muestran que los promedios globales en 2016 fueron 0.99 ºC más cálidos que el promedio de mediados del siglo XX. Diecisiete de los 18 años más cálidos de la historia han ocurrido desde el año 2000.
     figcaption.d-inline-flex.mb-5 (Conservación Internacional, 2019)
     SlyderE(indicadores="izquierda").mb-5
       .row.mx-4
@@ -214,7 +215,7 @@
         p “Este se origina por la combinación del aire con contaminantes durante un período de altas presiones. Este tipo de #[em smog] se desarrolla en prácticamente todas las grandes ciudades del mundo, especialmente en aquellas con mucho tráfico, soleadas y con poco movimiento de las masas de aire.
           br
           br
-          |El smog fotoquímico se forma a partir de las reacciones entre la luz solar y los óxidos de nitrógeno (NOx) y/o compuestos orgánicos volátiles (COV). Estas reacciones provocan la formación de ozono (O3) o dióxidos de azufre (SO2), y otros contaminantes secundarios, como formaldehído y cetonas. Este tipo de #[em smog] se intensifica cuando, aparte del tráfico intenso y la producción industrial que emiten NOx y COV a la atmósfera, se presenta un período de inversión térmica que impide la circulación del aire”.
+          |El smog fotoquímico se forma a partir de las reacciones entre la luz solar y los óxidos de nitrógeno (#[math.notacion #[msub #[mi NO]#[mn x]]]) y/o compuestos orgánicos volátiles (COV). Estas reacciones provocan la formación de ozono (#[math.notacion #[msub #[mi O]#[mn 3]]]) o dióxidos de azufre (#[math.notacion #[msub #[mi SO]#[mn 2]]]), y otros contaminantes secundarios, como formaldehído y cetonas. Este tipo de #[em smog] se intensifica cuando, aparte del tráfico intenso y la producción industrial que emiten #[math.notacion #[msub #[mi NO]#[mn x]]] y COV a la atmósfera, se presenta un período de inversión térmica que impide la circulación del aire”.
           br
           br
           |“La producción de #[em smog] fotoquímico oscurece la atmósfera dejando un aire teñido de color marrón rojizo, cargado de componentes dañinos para la salud de las personas y del medio ambiente. Aparte de ensuciar el aire y entregarle un aspecto de niebla, causa daños sobre zonas forestales y agrícolas cercanas a las ciudades”.
