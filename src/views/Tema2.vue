@@ -23,7 +23,7 @@
               .col-lg-1.mb-lg-0.mb-3
                 h3 1972
               .col-lg-11
-                p.mb-0 Estocolmo. Fue la primera cumbre ONU sobre cuestiones ambientales internacionales y marca inflexión en el desarrollo de la política internacional del medio ambiente(Timetoast, 2020).
+                p.mb-0 Estocolmo. Fue la primera cumbre ONU sobre cuestiones ambientales internacionales y marca inflexión en el desarrollo de la política internacional del medio ambiente. (Timetoast, 2020).
         div(titulo="1979")
           .tarjeta(style="background-color: #deefff ").p-4
             .row.justify-content-center
