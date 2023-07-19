@@ -442,7 +442,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=rvAYPKtN7mg',
     },
   ],
-  ccreditos: [
+  creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
