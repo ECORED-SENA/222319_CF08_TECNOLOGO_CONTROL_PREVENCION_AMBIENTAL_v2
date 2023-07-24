@@ -12,7 +12,6 @@
       
       .row.justify-content-center.align-items-center
         .col-lg-3.col-6
-         
           img.d-xl-none.d-block.position-relative(src='@/assets/curso/images/tema3/1.svg', alt='')
         .col-lg-9
           h4 Meteorología
@@ -82,7 +81,7 @@
             .col-lg-2.col-4: img.m-lg-0.mt-5(src="@/assets/curso/images/tema1/6.svg")
             .col-lg-10
               .p-5
-                p Para continuar conociendo los aspectos conceptuales básicos que favorecerán el estudio de este componente y que ayudarán a apropiar, más y mejor, la problemática atmosférica, se invita a desarrollar la siguiente actividad.
+                p Para continuar conociendo los aspectos conceptuales básicos que favorecerán el estudio de este componente y que ayudarán a apropiar, más y mejor, la problemática atmosférica, se invita a revisar el siguiente contenido.
     h4 Bases conceptuales: presión atmosférica
     .cajon-b.color-acento-contenido.p-3.mb-5
           .p-4

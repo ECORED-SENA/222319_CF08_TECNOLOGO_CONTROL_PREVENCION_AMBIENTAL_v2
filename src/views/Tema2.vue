@@ -179,7 +179,7 @@
       .titulo-sexto.color-secundario(data-aos='fade-right')
         p.mb-0 Colombia, país latinoamericano que hace parte de la Organización de las Naciones Unidas ONU y también de la Organización de Estados Americanos OEA, no es ajeno a los tratados internacionales que van en  pro de la protección de los recursos naturales y el planeta; se comprometió en el año 2012 con la firma del protocolo de Kioto, según el Ministerio de Ambiente y Desarrollo Sostenible MADS que resume los acuerdos establecidos.
     .tarjeta.bg-slyde.p-5.mb-5 
-      SlyderA
+      SlyderA(tipo='b')
         .row
           .col-lg-5.mb-4.mb-md-0
             h4 1. ¿Qué es protocolo de Kioto?
@@ -198,7 +198,7 @@
         .row
           .col-lg-5.mb-4.mb-md-0
             h4 3. Moviendo a los gobiernos
-            p #[b El protocolo ha movido a los gobiernos a establecer leyes y políticas] para cumplir sus compromisos, a las empresas a tener el medioambiente en cuenta a la hora de tomar decisiones sobre sus inversiones, y además ha propiciado la creación del mercado del carbono.”
+            p #[b El protocolo ha movido a los gobiernos a establecer leyes y políticas] para cumplir sus compromisos, a las empresas a tener el medioambiente en cuenta a la hora de tomar decisiones sobre sus inversiones, y además ha propiciado la creación del mercado del carbono.
           .col-lg-7
             figure
               img(src='@/assets/curso/images/tema2/4.png', alt='')

@@ -36,7 +36,7 @@
           .tarjeta.w-100(style="background-color: #fdf8e4" ).rounded-0
             .p-5.mt-2
               h3.text-center Interdependencia 
-              p Se puede inferir que en el planeta dependemos no solo de otras especies para sobrevivir sino que, además, las actividades antrópicas, que el hombre desarrolla (extractiva) porque su misma evolución lo lleva a consumir lo que la misma tierra le ofrece, sin pensar a largo plazo en las repercusiones generadas en los ecosistemas, llevan a que las alteraciones del ambiente produzcan los efectos que venimos viviendo en la últimas décadas.
+              p Se puede inferir que en el planeta dependemos no solo de otras especies para sobrevivir sino que, además, las actividades antrópicas, que el hombre desarrolla (extractiva) porque su misma evolución lo lleva a consumir lo que la misma tierra le ofrece, sin pensar a largo plazo en las repercusiones generadas en los ecosistemas, llevan a que las alteraciones del ambiente produzcan los efectos que venimos viviendo en las últimas décadas.
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta-avatar(data-aos="fade-right")
@@ -70,7 +70,7 @@
           .tarjeta.p-5.tarjeta-tabs(titulo="Lo irreversible")
             p La pérdida de biodiversidad que padeceríamos con el aumento a 1.5 &#176;C sería catastrófica, pero si el ascenso es a 2 &#176;C, el problema sería completamente irreversible por la desaparición de especies de plantas, animales, insectos, e incluso la muerte de casi la totalidad de los arrecifes de coral". "Con un aumento de la temperatura del planeta de 2 &#176;C, el 13 % de la superficie terrestre sufriría estos cambios, por ejemplo, de tundra a bosque, 10 que supondría desajustes irreversibles en su flora y su fauna.
           .tarjeta.p-5.tarjeta-tabs(titulo="¿Alguna esperanza?")
-            p Si el aumento de la temperatura planetaria es de 1.5 &#176;C, este riesgo se reduce al 4 % del área terrestre; a mayor temperatura, mayor impacto en el permafrost del Ártico, que se descongelaría entre un 35 % y un 47 % con una subida de 2 &#176;C, reduciéndose al 21 % en caso de que el aumento de la temperatura del planeta que padezcamos sea de 1.5 &#176;C."
+            p Si el aumento de la temperatura planetaria es de 1.5 &#176;C, este riesgo se reduce al 4 % del área terrestre; a mayor temperatura, mayor impacto en el permafrost del Ártico, que se descongelaría entre un 35 % y un 47 % con una subida de 2 &#176;C, reduciéndose al 21 % en caso de que el aumento de la temperatura del planeta que padezcamos sea de 1.5 &#176;C.
 
 
 
