@@ -27,25 +27,25 @@
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row(titulo="").jusityf-content-center.align-items-center
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-md-0
               p El 19 de agosto llega una iniciativa digital que busca comprometer a los ciudadanos con la protección ambiental. #MiPromesaClimáticaEs hará un llamado a la acción climática en el país, para que cada persona contribuya al cuidado del medioambiente.
-            .col-md-5: img(src='@/assets/curso/images/tema5/2.png', alt='')
+            .col-lg-5: img(src='@/assets/curso/images/tema5/2.png', alt='')
           .row(titulo="").jusityf-content-center.align-items-center
-            .col-md-5: img(src='@/assets/curso/images/tema5/3.png', alt='')
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-5: img(src='@/assets/curso/images/tema5/3.png', alt='')
+            .col-lg-7.mb-4.mb-md-0
               p La emergencia climática es la batalla de la vida, una batalla que se puede y se debe ganar. El calentamiento global ya está causando cambios duraderos en el sistema climático, y amenaza las vidas y los medios de vida en todo el mundo. 
           .row(titulo="").jusityf-content-center.align-items-center
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-md-0
               p Este proyecto tiene como objetivo incentivar a los colombianos para que se comprometan a implementar estrategias que ayuden a cuidar el clima y el medioambiente en el país con acciones de la vida diaria y profesional. 
-            .col-md-5: img(src='@/assets/curso/images/tema5/4.png', alt='')
+            .col-lg-5: img(src='@/assets/curso/images/tema5/4.png', alt='')
           .row(titulo="").jusityf-content-center.align-items-center
-            .col-md-5: img(src='@/assets/curso/images/tema5/5.png', alt='')
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-5: img(src='@/assets/curso/images/tema5/5.png', alt='')
+            .col-lg-7.mb-4.mb-md-0
               p #MiPromesaClimáticaEs reunirá a importantes voces en este tema en el ámbito nacional que darán lineamientos sobre cuáles son esos factores a los que se debe comprometer la ciudadanía para proteger el clima; las acciones a tomar, durante y después de la pandemia, para reducir el impacto negativo en Colombia. 
           .row(titulo="").jusityf-content-center.align-items-center
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-md-0
               p Durante esta nueva campaña se harán llamados a gobernadores y alcaldes para participar en un reconocimiento especial por su compromiso climático. Además, se abrirá la convocatoria para que jóvenes y mujeres presenten ideas o emprendimientos que busquen la protección del clima y del medioambiente y que, de esta manera, puedan contar con el respaldo del PNUD. 
-            .col-md-5: img(src='@/assets/curso/images/tema5/6.png', alt='')
+            .col-lg-5: img(src='@/assets/curso/images/tema5/6.png', alt='')
     
     figcaption.d-inline-block (Foros Semana, 2020) 
     Separador 
@@ -151,7 +151,7 @@
     figcaption.d-inline-flex.mb-5 (Conservación Internacional, 2019)
     SlyderE(indicadores="izquierda").mb-5
       .row.mx-4
-        .col-md-5.mb-4.mb-md-0
+        .col-lg-5.mb-4.mb-md-0
           h4.fst-italic Smog
           p Consecuentemente al cambio climático, uno de los fenómenos que se desarrollan es el #[em smog] fotoquímico. El IDEAM lo define como: 
             br
@@ -160,49 +160,49 @@
           a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
             span Origen del #[em smog] fotoquímico 
             .indicador--click(v-if="mostrarIndicador")
-        .col-md-7
+        .col-lg-7
           figure
             img(src='@/assets/curso/images/tema5/13.jpg', alt='')
       .row.mx-4
-        .col-md-5.mb-4.mb-md-0
+        .col-lg-5.mb-4.mb-md-0
           h4 Masas de aire 
           p Por ende, la contaminación atmosférica se ve atrapada en estas masas de aire, así como lo referencia la guía para docentes sobre calidad del aire, donde se expone que … “la capa de inversión térmica se presenta a una menor altura, lo que reduce la dilución de contaminantes en dirección vertical. Por otra parte, los vientos alisios o planetarios se debilitan, generando períodos de calma que pueden durar varios días. Y a esto se suma el encajonamiento propio de las zonas urbanas respecto de los cordones montañosos circundantes, lo que reduce las posibilidades de dispersión lateral de los contaminantes. Se generan así las condiciones propicias para su concentración en los períodos más fríos”. 
           p.mt-3.text-end (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
           a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
             span En que influye ?
             .indicador--click(v-if="mostrarIndicador")
-        .col-md-7
+        .col-lg-7
           figure
             img(src='@/assets/curso/images/tema5/14.jpg', alt='')
       .row.mx-4
-        .col-md-5.mb-4.mb-md-0
+        .col-lg-5.mb-4.mb-md-0
           h4 Inversión térmica 
           p Para identificar el origen del #[em smog] fotoquímico, es importante reconocer qué es la inversión térmica. 
             br
             br
             |“Como hemos visto, en condiciones normales de la tropósfera, las masas de aire cálido asociadas a la superficie terrestre se enfrían al ascender. La inversión térmica se presenta cuando se interpone una masa de aire más caliente que obstaculiza este tránsito, provocando una especie de barrera que no permite que el aire frío que se encuentra bajo ésta, pueda subir, dificultando la dispersión de los contaminantes emitidos desde la superficie”. 
           p.mt-3.text-end (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
-        .col-md-7
+        .col-lg-7
           figure
             img(src='@/assets/curso/images/tema5/c1.jpg', alt='')
       .row.mx-4
-        .col-md-5.mb-4.mb-md-0
+        .col-lg-5.mb-4.mb-md-0
           h4 Efecto invernadero 
           p Cuando hablamos de la contaminación atmosférica, se involucran directamente los conceptos de #[em smog] fotoquímico e inversión térmica, a los cuales se une uno más importante y determinante, como lo es el efecto invernadero. Este fenómeno natural es muy importante para el planeta; sin embargo, el crecimiento de la población mundial y sus diversas actividades antrópicas incrementan este fenómeno, generando consecuencias desastrosas. 
             br
             br
             |#[b Según el IDEAM, el efecto invernadero es el “calentamiento de las capas inferiores de la atmósfera debido a sus propiedades de absorción diferentes para las longitudes de onda larga y corta”.] (IDEAM, 2012). 
-        .col-md-7
+        .col-lg-7
           figure
             img(src='@/assets/curso/images/tema5/15.jpg', alt='')
       .row.mx-4
-        .col-md-5.mb-4.mb-md-0
+        .col-lg-5.mb-4.mb-md-0
           h4 La GPDSCA estable 
           p La tierra, cuando recibe la radiación solar, no absorbe toda la energía que proviene del sol, sino que refleja parte de ella de vuelta a la atmósfera, donde se encuentra con gases que retienen de manera natural la energía proveniente del sol y mantienen el planeta más caliente de lo que estaría en su ausencia. Como resultado de este efecto, la tierra se mantiene lo suficientemente templada como para permitir la vida en su superficie y en sus océanos.
           a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
             span Mas Información
             .indicador--click(v-if="mostrarIndicador")
-        .col-md-7
+        .col-lg-7
           figure
             img(src='@/assets/curso/images/tema5/16.jpg', alt='')
     ModalA(:abrir-modal.sync="modal1")

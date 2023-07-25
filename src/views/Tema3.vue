@@ -25,7 +25,7 @@
             p.mb-0 Para poder entender la meteorología, es necesario comprender sus conceptos claves, como atmósfera: #[b “envoltura gaseosa que rodea la tierra. Capa gaseosa que rodea nuestro planeta. Además de contener el aire, incluye partículas sólidas y líquidas en suspensión o aerosoles y nubes”.] (IDEAM, 2019)
       .col-lg-4: img(src='@/assets/curso/images/tema3/2.png', alt='')
     h4 Formación de la atmósfera terrestre
-    .tarjeta.bg-slyde.p-lg-5.p-3
+    .tarjeta.bg-slyde.p-lg-5.p-3.mb-lg-0.mb-3
       h5.text-center.mb-4 Según el portal de Margarita Lezama:
       .row.justify-content-center.mb-3
         .col-lg-6.mb-lg-0.mb-3
@@ -46,32 +46,32 @@
             .titulo-sexto.color-secundario(data-aos='fade-right')
               p.mb-0 &#34;El aire que respiramos está compuesto en un 78% de nitrógeno (N2), un 21% de oxígeno (O2), 0.9% de argón (Ar) y 0.04% de dióxido de carbono (CO2). El resto está compuesto por elementos llamados oligoelementos, que incluyen vapor de agua, ozono y otras partículas / moléculas que flotan alrededor&#34;
             p.text-end.mt-5 (Lezama, 2023)
-    ImagenInfografica.color-acento-botones.mb-5
+    ImagenInfograficaB.color-acento-botones.modal-custom.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/images/tema3/3.png', alt='')
-      .tarjeta.white-opacity.min-width-info.p-3(x="50%" y="35%" numero="")
+      div(x="50%" y="35%" numero="")
         h5 Exósfera 
         p “La última de las capas de la atmósfera es la exósfera. Esta es la capa más alejada de la superficie terrestre y, debido a su altura, es la más indefinida y por eso no es en sí considerada una capa de la atmósfera. Más o menos se extiende entre los 600-800 km de altura hasta los 9.000-10.000 km. Esta capa de la atmósfera es la que separa el planeta tierra del espacio exterior y en ella los átomos se escapan. Está compuesta en su mayoría de hidrógeno”. (Portillo, 2021) 
-      .tarjeta.white-opacity.min-width-info.p-3(x="50%" y="43%" numero="")
+      div(x="50%" y="43%" numero="")
         h5 Termósfera 
         p “Es la capa de la atmósfera más amplia. Se extiende desde los 80-90 km hasta los 640 km. A estas alturas ya apenas queda aire y las partículas que existen en esta capa se ionizan por la radiación ultravioleta. A esta capa también se le llama ionósfera debido a las colisiones de los iones que tienen lugar en ella. La ionósfera tiene gran influencia en la propagación de las ondas de radio. Una parte de la energía radiada por un transmisor hacia la ionósfera es absorbida por el aire ionizado y otra es refractada, o desviada, de nuevo hacia la superficie de la tierra”. 
           br
           br
           |La temperatura en la termósfera es muy alta, llegando a ser de hasta miles de grados Celsius. Todas las partículas que se encuentran en la termósfera están altamente cargadas de energía proveniente de los rayos del sol. (Portillo, 2021) 
-      .tarjeta.white-opacity.min-width-info.p-3(x="50%" y="52%" numero="")
+      div(x="50%" y="52%" numero="")
         h5 Mesósfera
         p “Al final de la estratósfera, se encuentra la estratopausa. Se trata de una zona de la atmósfera donde terminan las altas concentraciones de ozono y la temperatura se vuelve muy estable (sobre los 0 grados centígrados). La estratopausa es la que da paso a la mesósfera”. 
           br
           br
           |La mesósfera es la capa más delgada de la atmósfera, ya que sólo contiene el 0,1% de la masa de aire total, y en ella se pueden alcanzar temperaturas de hasta -80 grados centígrados. En esta capa tienen lugar las reacciones de quimioluminiscencia y aeroluminiscencia. (Portillo, 2021) 
-      .tarjeta.white-opacity.min-width-info.p-3(x="50%" y="60.5%" numero="")
+      div(x="50%" y="60.5%" numero="")
         h5 Estratósfera 
         p “Se encuentra a partir de la tropopausa y se extiende desde los 10-15 km de altura hasta los 45-50 km. La temperatura en la estratósfera es mayor en la parte superior que en la inferior ya que conforme aumenta en altura, va absorbiendo mayor cantidad de rayos solares y va aumentando su temperatura. Es decir, el comportamiento de la temperatura en altura es al contrario que en la tropósfera. Comienza siendo estable, pero baja, y conforme aumenta la altitud, aumenta la temperatura”. 
           br
           br
           |Al final de la estratósfera se encuentra la estratopausa. Se trata de una zona de la atmósfera donde terminan las altas concentraciones de ozono y la temperatura se vuelve muy estable (sobre los 0 grados centígrados). La estratopausa es la que da paso a la mesósfera. (Portillo, 2021) 
-      .tarjeta.white-opacity.min-width-info.p-3(x="50%" y="68.5%" numero="")
+      div(x="50%" y="68.5%" numero="")
         h5 Tropósfera 
         p “La primera de las capas de la atmósfera es la tropósfera y es la más cercana a la superficie terrestre y, por lo tanto, es en aquella capa en la que vivimos nosotros. Se extiende desde el nivel del mar hasta más o menos unos 10-15 km de altura. Es en la tropósfera donde se desarrolla la vida en el planeta. Más allá de la tropósfera las condiciones no permiten el desarrollo de la vida. La temperatura y la presión atmosférica van disminuyendo en la tropósfera conforme vamos incrementando la altura en la que nos encontramos”. (Portillo, 2021) 
     .row.justify-content-center.mb-5

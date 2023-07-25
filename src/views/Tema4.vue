@@ -46,9 +46,9 @@
     .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #e2eacb ")
       p.mb-0 Sin embargo, y ampliando la conceptualización sobre las fuentes contaminantes de la atmósfera, la Resolución 909 de 2008, que corresponde a la norma de fuentes fijas en Colombia, define los siguientes conceptos asociados a los tipos de fuentes:
     .row.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-left")
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/images/tema4/4.png', alt='').mb-4
+          img(src='@/assets/curso/images/tema4/4.png', alt='')
           figcaption.w-60 (Ministerio del Medio Ambiente. Gobierno de Chile, 2018) 
 
       .col-lg-6(data-aos="fade-right")
