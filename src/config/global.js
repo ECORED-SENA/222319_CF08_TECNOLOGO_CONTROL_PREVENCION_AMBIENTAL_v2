@@ -221,8 +221,8 @@ export default {
     },
     {
       referencia:
-        'Capas de la Tierra. (2018, 24 agosto). Capas de la Tierra: Características, Estructura, Composición y Má',
-      link: 'https://www.capasdelatierra.org/',
+        'Capas de la Tierra. (2018, 24 agosto). Capas de la Tierra: Características, Estructura, Composición y Más',
+      link: '',
     },
     {
       referencia:
@@ -344,7 +344,7 @@ export default {
     {
       termino: 'Meteorología',
       significado:
-        'El estudio de la atmósfera y sus fenómenos – especialmente las condiciones del tiempo y del clima – y las aplicaciones prácticas de este estudio. Además de la física, la química y la dinámica de la atmósfera, la meteorología abarca muchos de los efectos directos de la atmósfera en la superficie de la Tierra, los océanos y vida en general” (IDEAM, 2019).',
+        'El estudio de la atmósfera y sus fenómenos – especialmente las condiciones del tiempo y del clima – y las aplicaciones prácticas de este estudio. Además de la física, la química y la dinámica de la atmósfera, la meteorología abarca muchos de los efectos directos de la atmósfera en la superficie de la Tierra, los océanos y vida en general (IDEAM, 2019).',
     },
     {
       termino: 'Precipitación',
@@ -420,7 +420,7 @@ export default {
     {
       tema: '5. Problemáticas ambientales',
       referencia:
-        'Facultad Online. (2018, 8 octubre). Efecto Invernadero | Explicación y cómo combatirlo!! [Video]. YouTube.',
+        'Historia para melones. (2017, 29 noviembre). La contaminación atmosférica [Video]. YouTube',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=JsBSJE_TCOA',
     },

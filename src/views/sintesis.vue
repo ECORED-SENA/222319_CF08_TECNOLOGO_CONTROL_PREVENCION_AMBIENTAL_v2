@@ -5,7 +5,6 @@
 
  
     p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-    img(src='@/assets/curso/sintesis.svg', alt='')
     .row.justify-content-center
       .col-lg-9.mb-5
         figure

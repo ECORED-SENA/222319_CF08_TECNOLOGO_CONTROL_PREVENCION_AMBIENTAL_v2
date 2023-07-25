@@ -72,7 +72,7 @@
         .bloque-texto-e.p-4(style="background-color: #ecf7f4")
           .bloque-texto-e__texto
             i.fas.fa-quote-left(style='color: #34bc85')
-            p.text-regular El término #[b “cambio climático”] se utiliza a menudo en un sentido más limitado para designar un cambio significativo (esto es, un cambio que tiene efectos económicos, medioambientales y sociales importantes) en los valores medios de un elemento meteorológico (en particular de la temperatura o la cantidad de precipitación) en el curso de un periodo dado, tomando las medias en duraciones del orden del decenio o más
+            p.text-regular El término #[b “cambio climático”] se utiliza a menudo en un sentido más limitado para designar un cambio significativo (esto es, un cambio que tiene efectos económicos, medioambientales y sociales importantes) en los valores medios de un elemento meteorológico (en particular de la temperatura o la cantidad de precipitación) en el curso de un periodo dado, tomando las medias en duraciones del orden del decenio o más.
             i.fas.fa-quote-right(style='color: #34bc85')
           .row.align-items-end
             .col
@@ -177,7 +177,7 @@
       .row.mx-4
         .col-md-5.mb-4.mb-md-0
           h4 Inversión térmica 
-          p Para identificar el origen del smog fotoquímico, es importante reconocer qué es la inversión térmica. 
+          p Para identificar el origen del #[em smog] fotoquímico, es importante reconocer qué es la inversión térmica. 
             br
             br
             |“Como hemos visto, en condiciones normales de la tropósfera, las masas de aire cálido asociadas a la superficie terrestre se enfrían al ascender. La inversión térmica se presenta cuando se interpone una masa de aire más caliente que obstaculiza este tránsito, provocando una especie de barrera que no permite que el aire frío que se encuentra bajo ésta, pueda subir, dificultando la dispersión de los contaminantes emitidos desde la superficie”. 
@@ -215,7 +215,7 @@
         p “Este se origina por la combinación del aire con contaminantes durante un período de altas presiones. Este tipo de #[em smog] se desarrolla en prácticamente todas las grandes ciudades del mundo, especialmente en aquellas con mucho tráfico, soleadas y con poco movimiento de las masas de aire.
           br
           br
-          |El smog fotoquímico se forma a partir de las reacciones entre la luz solar y los óxidos de nitrógeno (#[math.notacion #[msub #[mi NO]#[mn x]]]) y/o compuestos orgánicos volátiles (COV). Estas reacciones provocan la formación de ozono (#[math.notacion #[msub #[mi O]#[mn 3]]]) o dióxidos de azufre (#[math.notacion #[msub #[mi SO]#[mn 2]]]), y otros contaminantes secundarios, como formaldehído y cetonas. Este tipo de #[em smog] se intensifica cuando, aparte del tráfico intenso y la producción industrial que emiten #[math.notacion #[msub #[mi NO]#[mn x]]] y COV a la atmósfera, se presenta un período de inversión térmica que impide la circulación del aire”.
+          |El #[em smog] fotoquímico se forma a partir de las reacciones entre la luz solar y los óxidos de nitrógeno (#[math.notacion #[msub #[mi NO]#[mn x]]]) y/o compuestos orgánicos volátiles (COV). Estas reacciones provocan la formación de ozono (#[math.notacion #[msub #[mi O]#[mn 3]]]) o dióxidos de azufre (#[math.notacion #[msub #[mi SO]#[mn 2]]]), y otros contaminantes secundarios, como formaldehído y cetonas. Este tipo de #[em smog] se intensifica cuando, aparte del tráfico intenso y la producción industrial que emiten #[math.notacion #[msub #[mi NO]#[mn x]]] y COV a la atmósfera, se presenta un período de inversión térmica que impide la circulación del aire”.
           br
           br
           |“La producción de #[em smog] fotoquímico oscurece la atmósfera dejando un aire teñido de color marrón rojizo, cargado de componentes dañinos para la salud de las personas y del medio ambiente. Aparte de ensuciar el aire y entregarle un aspecto de niebla, causa daños sobre zonas forestales y agrícolas cercanas a las ciudades”.
@@ -268,7 +268,7 @@
             h5.mb-4 En la columna escrita por Brad Plumer y Nadja Popovich se expone que
             .bloque-texto-e__texto.mb-5
               i.fas.fa-quote-left(style='color: #34bc85')
-              p.text-regular el clima extremo dejó su marca por todo el planeta en 2016, el año más caliente del que se tenga registro. El récord de calor horneó Asia y el Ártico. Las sequías azotaron Brasil y el sur de África. La Gran Barrera de Coral sufrió el peor blanqueamiento que se recuerde, lo que provocó la muerte de una gran franja de coral”.
+              p.text-regular El clima extremo dejó su marca por todo el planeta en 2016, el año más caliente del que se tenga registro. El récord de calor horneó Asia y el Ártico. Las sequías azotaron Brasil y el sur de África. La Gran Barrera de Coral sufrió el peor blanqueamiento que se recuerde, lo que provocó la muerte de una gran franja de coral.
               i.fas.fa-quote-right(style='color: #34bc85')
             .row.align-items-end
               .col
@@ -281,7 +281,7 @@
         .bloque-texto-e.p-4(style="background-color: #ecf7f4").h-100
             .bloque-texto-e__texto.mb-5
               i.fas.fa-quote-left(style='color: #34bc85')
-              p.text-regular En la actualidad, los climatólogos están comenzando a entender cuáles de las calamidades del año pasado se pueden o no se pueden relacionar con el calentamiento global. En una nueva serie de trabajos que se publicaron recientemente en #[em Bulletin of the American Meteorological Society], investigadores de todo el mundo analizaron veintisiete eventos climáticos extremos de 2016 y encontraron que el cambio climático que ha provocado el hombre era un “motor significativo” en veintiuno de ellos
+              p.text-regular En la actualidad, los climatólogos están comenzando a entender cuáles de las calamidades del año pasado se pueden o no se pueden relacionar con el calentamiento global. En una nueva serie de trabajos que se publicaron recientemente en #[em Bulletin of the American Meteorological Society], investigadores de todo el mundo analizaron veintisiete eventos climáticos extremos de 2016 y encontraron que el cambio climático que ha provocado el hombre era un “motor significativo” en veintiuno de ellos.
               i.fas.fa-quote-right(style='color: #34bc85')
             .row.align-items-end
               .col
@@ -294,7 +294,7 @@
           .d-flex.justify-content-center
             .tarjeta.rounded-pill.color-primario.p-3.d-inline-flex.mb-4
               h4.text-white.d-flex.mb-0 Efectos climáticos del calentamiento global
-          p.mb-5(data-aos='fade-right') Se debe estudiar, en la gráfica, los efectos climáticos que sobrevienen del calentamiento global. Es preciso tomar nota atenta de su definición y de los aspectos que caracterizan cada tipo de efecto/problema. Mientras se estudia la gráfica, se debe intentar establecer, mentalmente, acciones y mecanismos de combate o mitigación de dichos efectos.
+          p.mb-5(data-aos='fade-right') A continuación se presentan los efectos climáticos que sobrevienen del calentamiento global. Es preciso tomar nota atenta de su definición y de los aspectos que caracterizan cada tipo de efecto/problema. Mientras se estudia la gráfica, se debe intentar establecer, mentalmente, acciones y mecanismos de combate o mitigación de dichos efectos.
             br
             br
             |#[b ¡Adelante!]  

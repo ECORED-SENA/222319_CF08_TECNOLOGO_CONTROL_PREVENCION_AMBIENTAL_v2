@@ -114,7 +114,7 @@
           .bloque-texto-e.color-primario.p-4.bg-white
             .bloque-texto-e__texto
               i.fas.fa-quote-left(style='color: #34bc85')
-              p.text-regular Los contaminantes de la atmósfera consisten en una gran variedad de gases, vapores y partículas, cuya presencia y cantidad afectan a las personas, las plantas, los animales y los materiales. Según sea el origen de los contaminantes, estos pueden clasificarse en dos grandes grupos -los primarios y los secundarios-, para así estudiar mejor su origen, distribución y tratamiento o prevención
+              p.text-regular Los contaminantes de la atmósfera consisten en una gran variedad de gases, vapores y partículas, cuya presencia y cantidad afectan a las personas, las plantas, los animales y los materiales. Según sea el origen de los contaminantes, estos pueden clasificarse en dos grandes grupos -los primarios y los secundarios-, para así estudiar mejor su origen, distribución y tratamiento o prevención.
               i.fas.fa-quote-right(style='color: #34bc85')
             p.text-end (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
       div(style="height: 150px")
@@ -133,8 +133,8 @@
                 .tarjeta-flip__contenedor(style="height: 436px")
                   .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema4/7.png')})`}")
                   .tarjeta-flip__contenido.p-4.p-xl-5
-                    h4 Contaminantes primarios 
-                    p “Son aquellos que proceden directamente de las fuentes de emisión, tales como artefactos de calefacción domiciliarios, chimeneas industriales y tubos de escape de automóviles”. 
+                    h4 Contaminantes secundarios
+                    p “Son aquellos que se originan en el aire, a raíz de reacciones químicas que pueden ocurrir entre dos o más contaminantes primarios, o entre contaminantes primarios y elementos propios de la atmósfera”.  
     .row.mb-5
       .col-lg-5
         figcaption (Ministerio del Medio Ambiente. Gobierno de Chile, 2018) 
@@ -165,7 +165,7 @@
                 p Estos gases se producen durante el quemado de maderas y combustibles fósiles, como gasolina, carbón y gas natural.
                   br
                   br
-                  | " El sector transporte constituye la fuente principal de emisión de NOx. El mayor desplazamiento en vehículos particulares por parte de la población en las grandes ciudades y el crecimiento sostenido del parque automotriz son una de las causas más importantes del aumento de las emisiones de este contaminante. Cabe tener presente que los vehículos con motor a diésel emiten una mayor cantidad de contaminantes que aquéllos a gasolina, por lo que también es relevante considerar la composición del parque automotriz". (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
+                  | "El sector transporte constituye la fuente principal de emisión de NOx. El mayor desplazamiento en vehículos particulares por parte de la población en las grandes ciudades y el crecimiento sostenido del parque automotriz son una de las causas más importantes del aumento de las emisiones de este contaminante. Cabe tener presente que los vehículos con motor a diésel emiten una mayor cantidad de contaminantes que aquéllos a gasolina, por lo que también es relevante considerar la composición del parque automotriz". (Ministerio del Medio Ambiente. Gobierno de Chile, 2018)
 
               .tarjeta.color-acento-contenido.p-3(x="22.3%" y="97%" numero="" style='background-color: #d3ede5')
                 h4 Familia de compuestos nitrogenados
@@ -251,19 +251,19 @@
                   ul.lista-ul--color.fw-bold 
                     li.mb-0
                       i.fas.fa-check(style='color: #feb12e')
-                      | Pinturas y barnices (e industrias donde se usen éstos)
+                      | Pinturas y barnices (e industrias donde se usen éstos).
                     li.mb-0
                       i.fas.fa-check(style='color: #feb12e')
-                      | Industria siderúrgica 
+                      | Industria siderúrgica.
                     li.mb-0
                       i.fas.fa-check(style='color: #feb12e')
-                      | Industria de la madera 
+                      | Industria de la madera.
                     li.mb-0
                       i.fas.fa-check(style='color: #feb12e')
-                      | Industria cosmética  
+                      | Industria cosmétic. 
                     li.mb-0
                       i.fas.fa-check(style='color: #feb12e')
-                      | Industria farmacéutica 
+                      | Industria farmacéutica. 
           .row.mb-5
             .col-lg-8
               figcaption (Ministerio para la Transición Ecológica y el Reto Demográfico, 2016)
@@ -288,7 +288,7 @@
             figure
               img(src='@/assets/curso/images/tema4/13.png', alt='')
     h3 Estándares de emisiones en Colombia 
-    p.mb-5(data-aos='fade-right') En Colombia, la Resolución 909 de 2008, por la cual se establecen los estándares de emisiones industriales a nivel nacional, establece la principal actividad antrópica generadora de estos contaminantes tipo criterio. Es importante reconocer qué tipo de procesos son generadores de estos compuestos. A continuación, se presenta un fragmento de la tabla 3 de las actividades industriales y contaminantes a monitorear por actividad industrial. 
+    p.mb-5(data-aos='fade-right') En Colombia, la Resolución 909 de 2008, por la cual se establecen los estándares de emisiones industriales a nivel nacional, establece la principal actividad antrópica generadora de estos contaminantes tipo criterio. Es importante reconocer qué tipo de procesos son generadores de estos compuestos.  
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.3 Afectación de los contaminantes  
@@ -300,7 +300,7 @@
       .col-lg-7.mb-lg-0.mb-3.order-lg-1.order-2
         AcordionA.acordion_botones.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             div(titulo="Material Particulado (MP)")
-              p Por su tamaño, estas partículas son capaces de ingresar al sistema respiratorio, provocando potenciales daños a sus órganos principales. Mientras menor sea su diámetro, mayor será el potencial de daño a la salud humana. Las partículas de #[math.notacion #[msub #[mi MP]#[mn 2]]],5 penetran hasta los alvéolos pulmonares e ingresan directamente al torrente sanguíneo, aumentando los riesgos de mortalidad prematura. En general, el MP puede también dañar las plantas, inhibir el crecimiento de la vegetación y corroer materiales. 
+              p Por su tamaño, estas partículas son capaces de ingresar al sistema respiratorio, provocando potenciales daños a sus órganos principales. Mientras menor sea su diámetro, mayor será el potencial de daño a la salud humana. Las partículas de #[math.notacion #[msub #[mi MP]#[mn 2,5]]] penetran hasta los alvéolos pulmonares e ingresan directamente al torrente sanguíneo, aumentando los riesgos de mortalidad prematura. En general, el MP puede también dañar las plantas, inhibir el crecimiento de la vegetación y corroer materiales. 
             div(titulo="Impacto del monóxido de carbono (CO) ")
               p Tiene efectos perjudiciales, ya que en altas concentraciones puede causar cambios fisiológicos y patológicos y, finalmente, la muerte. Principalmente, el daño que produce es que el CO sustituye al oxígeno en la sangre, formando la carboxihemoglobina (COHb), lo que produce un menor transporte de oxígeno en la sangre, una disminución de las funciones neuroconductuales, menor peso en niños recién nacidos y retardo en el desarrollo postnatal. Al parecer, el monóxido de carbono no tiene efectos perjudiciales sobre la superficie de los materiales. Se han hecho experimentos que han demostrado que el CO no produce efectos dañinos en plantas a concentraciones por debajo de 100 ppm, teniendo en cuenta que rara vez las concentraciones ambientales de este contaminante pueden alcanzar este nivel, ni siquiera en cortos períodos. 
             div(titulo="Óxidos de nitrógeno (NOx)")
@@ -331,7 +331,6 @@
               .col-lg-7
                 .p-4
                   p.mb-0 Para contextualizar el contenido, es posible visualizar el siguiente video:
-                  p.text-small https://www.youtube.com/watch?v=FtKg9zJ6oNQ
               .col-lg-3.col-4
                 a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=FtKg9zJ6oNQ" target="_blank" type="application/pdf")
                   span Ver video
@@ -356,7 +355,7 @@
           .bloque-texto-e.color-primario.p-4(style="background-color: #f3f9ff ")
             .bloque-texto-e__texto
               i.fas.fa-quote-left(style='color: #34bc85')
-              p.text-regular El Índice de calidad del aire (ICA) permite comparar los niveles de contaminación del aire de las estaciones de monitoreo que conforman un Sistema de Vigilancia de Calidad del Aire (Unidades espaciales de referencia), en un tiempo t, que corresponde al período de exposición previsto en la norma para cada uno de los contaminantes que se está midiendo
+              p.text-regular El Índice de calidad del aire (ICA) permite comparar los niveles de contaminación del aire de las estaciones de monitoreo que conforman un Sistema de Vigilancia de Calidad del Aire (Unidades espaciales de referencia), en un tiempo t, que corresponde al período de exposición previsto en la norma para cada uno de los contaminantes que se está midiendo.
               i.fas.fa-quote-right(style='color: #34bc85')
           figcaption (IDEAM, 2012) 
     .tarjeta.rounded-pill.color-primario.p-3.d-inline-flex.mb-4
@@ -392,7 +391,6 @@
               .col-lg-7
                 .p-4
                   h5 Para contextualizar este contenido, se puede visualizar el video del siguiente enlace:
-                  p https://www.youtube.com/watch?v=aW8Wuxxbv6E
               .col-auto 
                 .p-2
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=aW8Wuxxbv6E" target="_blank" type="application/pdf")

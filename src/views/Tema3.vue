@@ -26,7 +26,7 @@
       .col-lg-4: img(src='@/assets/curso/images/tema3/2.png', alt='')
     h4 Formación de la atmósfera terrestre
     .tarjeta.bg-slyde.p-lg-5.p-3
-      h5.text-center.mb-4 Según el portal #[a.fw-bold(href='https://capasdelatierra.org' target="_blank") www.capasdelatierra.org:]
+      h5.text-center.mb-4 Según el portal de Margarita Lezama:
       .row.justify-content-center.mb-3
         .col-lg-6.mb-lg-0.mb-3
           .tarjeta.bg-white.p-lg-5.p-4.h-100
@@ -45,7 +45,7 @@
           .tarjeta.bg-white.p-lg-5.p-4.h-100
             .titulo-sexto.color-secundario(data-aos='fade-right')
               p.mb-0 &#34;El aire que respiramos está compuesto en un 78% de nitrógeno (N2), un 21% de oxígeno (O2), 0.9% de argón (Ar) y 0.04% de dióxido de carbono (CO2). El resto está compuesto por elementos llamados oligoelementos, que incluyen vapor de agua, ozono y otras partículas / moléculas que flotan alrededor&#34;
-            p.text-end.mt-5 (Capas de la Tierra, 2018)
+            p.text-end.mt-5 (Lezama, 2023)
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure

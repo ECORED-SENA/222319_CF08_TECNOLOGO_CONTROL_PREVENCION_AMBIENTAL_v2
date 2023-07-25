@@ -24,7 +24,7 @@
     p.mb-5(data-aos='fade-right') “La contaminación atmosférica es la presencia que existe en el aire de pequeñas partículas o productos secundarios gaseosos que pueden implicar riesgo, daño o molestia para las personas, plantas y animales que se encuentran expuestas a dicho ambiente.”  
     .row.justify-content-center.mb-5
       .col-lg-6
-        img(src='@/assets/curso/images/tema6/2.svg', alt='').mb-4
+        img(src='@/assets/curso/images/tema6/2.svg', alt='La imagen representa la contaminación atmosférica, la cual se evalúa mediante la calidad del aire. Esta calidad se ve afectada tanto por las fuentes fijas como por las fuentes móviles.').mb-4
         figcaption.text-center.tarjeta Nota. Tomada de Cárdenas (2020). Sectores Normativos.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -68,7 +68,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/images/tema6/5.svg', alt='')
       .col-lg-10 
-        p #[b Las fuentes fijas puntuales, mejor conocidas como “chimeneas”] o ductos por donde se expulsan gases contaminantes (MP, SOx, NOx, CO, COV, entre otros) de las industrias que hacen parte del sector productivo que mueve la economía de nuestro país, aportan de manera importante al continuo deterioro de la calidad del aire que respiramos, especialmente en la principales ciudades del país; por esta razón, la normatividad asociada a las fuentes fijas es fundamental para el seguimiento y control de la emisiones en Colombia. 
+        p #[b Las fuentes fijas puntuales, mejor conocidas como “chimeneas”] o ductos por donde se expulsan gases contaminantes (MP, SOx, NOx, CO, COV, entre otros) de las industrias que hacen parte del sector productivo que mueve la economía de nuestro país, aportan de manera importante al continuo deterioro de la calidad del aire que respiramos, especialmente en las principales ciudades del país; por esta razón, la normatividad asociada a las fuentes fijas es fundamental para el seguimiento y control de las emisiones en Colombia. 
     .row.justify-content-center.mb-5
       .col-lg-10 
         .tarjeta(style="background-color: #f3f9ff ").p-4
@@ -194,7 +194,7 @@ export default {
       {
         titulo: 'Resolución 650 de 2010',
         texto:
-          'Por la cual se adopta el Protocolo para el monitoreo y seguimiento de la calidad del aire”  ',
+          'Por la cual se adopta el Protocolo para el monitoreo y seguimiento de la calidad del aire',
         icono: require('@/assets/curso/images/tema6/a1.svg'),
       },
       {
