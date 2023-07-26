@@ -149,7 +149,7 @@
         h4.text-white.d-flex.mb-0 2016, el año más cálido registrado 
     p(data-aos='fade-right') Según el portal #[a(href='https://www.conservation.org/' target="_blank") www.conservation.org], los datos de la NASA y la Administración Nacional Oceánica y Atmosférica (NOAA) muestran que los promedios globales en 2016 fueron 0.99 ºC más cálidos que el promedio de mediados del siglo XX. Diecisiete de los 18 años más cálidos de la historia han ocurrido desde el año 2000.
     figcaption.d-inline-flex.mb-5 (Conservación Internacional, 2019)
-    SlyderE(indicadores="izquierda").mb-5
+    SlyderA(tipo="b").mb-5
       .row.mx-4
         .col-lg-5.mb-4.mb-md-0
           h4.fst-italic Smog
